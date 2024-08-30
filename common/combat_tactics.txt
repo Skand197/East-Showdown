@@ -1,6 +1,8 @@
 #### COMBAT TACTICS ###########################################################
 #
 # NOTE: tactics must start with "tactic_" in their name to work with techs.
+# display_phase = tactical_withdrawal 
+# phase = close_combat (В trigger проверяет, без - устанавливает)
 ###############################################################################
 
 phases = { # phase = no is the standard phase
@@ -824,4 +826,93 @@ tactic_masterful_blitz = { #Improved version of Blitz for Soviets
 	attacker_movement_speed = 0.5
 	attacker = 0.2
 	defender = -0.2
+}
+
+#НИЖЕ МОДОВЫЕ ТАКТИКИ
+
+tactic_city_defend_bybuild = { #Основа тактики - реальная тактика АЗОВа в Мариуполе. АКА Дом на дом.
+
+is_defender = yes
+	trigger = {
+		is_defender = yes
+		OR = {
+        is_fighting_in_terrain = urban
+		is_fighting_in_terrain = industrial
+		}
+		phase = no
+	}
+	
+	active = yes
+	
+	base =  { factor = 4 }
+	picture = tactic_barrage
+	
+	combat_width = -0.5
+	attacker = -0.1
+	defender_movement_speed = -0.25
+	defender = 0.3	
+
+}
+
+tactic_meath_storm = { #Мясной штурм
+
+is_attacker = yes
+	trigger = {
+		is_attacker = yes
+		phase = no
+	}
+	
+	active = yes
+	
+	base =  { factor = 4 }
+	picture = tactic_barrage
+	
+	attacker_movement_speed = -0.25
+	attacker = 0.2
+	defender = -0.1	
+
+}
+
+tactic_city_attacker_bybuild = { #Пуш городов
+
+is_attacker = yes
+	trigger = {
+		is_attacker = yes
+		OR = {
+        is_fighting_in_terrain = urban
+		is_fighting_in_terrain = industrial
+		}
+		phase = no
+	}
+	
+	active = yes
+	
+	base =  { factor = 4 }
+	picture = tactic_barrage
+	
+	combat_width = -0.5
+	attacker_movement_speed = -0.2
+	attacker = 0.2
+	defender = -0.1	
+
+}
+
+tactic_partisan_war_battle = { #Партизанская тактика
+
+is_defender = yes
+	trigger = {
+		is_defender = yes
+		less_combat_width_than_opponent = yes
+		phase = no
+	}
+	
+	active = yes
+	
+	base =  { factor = 4 }
+	picture = tactic_barrage
+	
+	attacker_movement_speed = -0.2
+	attacker = -0.1
+	defender = -0.05	
+
 }
