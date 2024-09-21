@@ -4450,6 +4450,7 @@ country_event = {
 	option = {
 		name = rus.156.a
 		log = "[GetDateText]: [This.GetName]: rus.156.a executed"
+		set_global_flag = hide_tactic_russia_taktika_kolonu
 		add_political_power = -20
 		add_war_support = -0.05
     }

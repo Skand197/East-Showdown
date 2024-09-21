@@ -4,6 +4,7 @@
 # countered_by = tactic_elastic_defense
 # display_phase = tactical_withdrawal 
 # phase = close_combat (В trigger проверяет, без - устанавливает)
+# only_show_for = SOV
 ###############################################################################
 
 phases = { # phase = no is the standard phase
@@ -403,5 +404,48 @@ is_defender = yes
 	attacker_movement_speed = -0.2
 	attacker = -0.1
 	defender = -0.05	
+
+}
+
+tactic_russia_taktika_kolonu = { #Тактика колоны (Доступна до ивента про провал ее)
+only_show_for = RUS
+
+is_attacker = yes
+	trigger = {
+		is_attacker = yes
+		tag = RUS
+		NOT = { has_global_flag = hide_tactic_russia_taktika_kolonu }
+		phase = no
+	}
+	
+	active = yes
+	
+	base =  { factor = 4 }
+	picture = tactic_barrage
+	countered_by = tactic_partisan_war_battle
+	attacker_movement_speed = 0.25
+	attacker = -0.05
+	defender = 0.05	
+
+}
+
+tactic_dig_offensive = { #Штурм окопа
+
+is_attacker = yes
+	trigger = {
+		is_attacker = yes
+		phase = close_combat
+		dig_in > 0.5
+	}
+	
+	active = yes
+	
+	base =  { factor = 4 }
+	display_phase = close_combat
+	picture = tactic_barrage
+	
+	attacker_movement_speed = -0.1
+	attacker = -0.1
+	defender = -0.1	
 
 }
