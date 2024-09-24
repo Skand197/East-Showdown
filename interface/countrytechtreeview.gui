@@ -1656,116 +1656,29 @@ guiTypes = {
 				}
 		
 				gridboxtype = {
-					name = "ukr_bronemashina1_tree"
+					name = "ukr_t80_tree"
 					position = { x = 30 y = 172 }
 					size = { width = 80% height = 80% }
 					slotsize = { width = 70 height = 70 }
 					format = "UP"
 				}
+
 				gridboxtype = {
-					name = "ukr_tyazbronemashina1_tree"
-					position = { x = 0 y = 172 }
+					name = "ukr_t64_tree"
+					position = { x = 35 y = 172 }
 					size = { width = 80% height = 80% }
 					slotsize = { width = 70 height = 70 }
 					format = "UP"
 				}
+
 				gridboxtype = {
-					name = "ukr_btr1_tree"
-					position = { x = -30 y = 172 }
+					name = "ukr_t72_tree"
+					position = { x = 37 y = 172 }
 					size = { width = 80% height = 80% }
 					slotsize = { width = 70 height = 70 }
 					format = "UP"
 				}
-				gridboxtype = {
-					name = "ukr_t72korpus_tree"
-					position = { x = -60 y = 172 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "UP"
-				}
-				gridboxtype = {
-					name = "ukr_t64korpus_tree"
-					position = { x = -90 y = 172 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "UP"
-				}
-				gridboxtype = {
-					name = "ukr_bmp1_tree"
-					position = { x = -130 y = 172 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "UP"
-				}
-				gridboxtype = {
-					name = "ukr_bmd1_tree"
-					position = { x = -160 y = 172 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "UP"
-				}
-				gridboxtype = {
-					name = "ukr_gmkorpus1_tree"
-					position = { x = -190 y = 172 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "UP"
-				}
-				gridboxtype = {
-					name = "ukr_tyazeliykorpus_tree"
-					position = { x = -220 y = 172 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "UP"
-				}
-		
-				gridboxtype = {
-					name = "ukr_engine1_tree"
-					position = { x = -140 y = 190 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "UP"
-				}
-		
-				gridboxtype = {
-					name = "ukr_turret1_tree"
-					position = { x = -170 y = 190 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "UP"
-				}
-		
-				gridboxtype = {
-					name = "ukr_desant1_tree"
-					position = { x = -200 y = 190 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "UP"
-				}
-		
-				gridboxtype = {
-					name = "ukr_passzachita1_tree"
-					position = { x = -230 y = 190 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "UP"
-				}
-		
-				gridboxtype = {
-					name = "ukr_electr1_tree"
-					position = { x = -260 y = 190 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "UP"
-				}
-		
-				gridboxtype = {
-					name = "ukr_oborudovanie1_tree"
-					position = { x = -290 y = 190 }
-					size = { width = 80% height = 80% }
-					slotsize = { width = 70 height = 70 }
-					format = "UP"
-				}
+				
 		}
 
 		containerWindowType = {

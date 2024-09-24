@@ -1,12 +1,19 @@
+
+#концепция в том чтобы раскинуть все по папкам наций чтобы все было уникальным но так же были улучшение чтобы не ломалис
+#окна
+
+
+
+
 technologies = {
-	ukr_bronemashina1 = {
+	ukr_t80 = {
 
 		enable_equipments = {
-			bronemashina1_chassis
+			tank_sov_t80_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_bronemashina2
+			leads_to_tech = ukr_t80B
 			research_cost_coeff = 1
 		}
 
@@ -14,90 +21,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = -8 y = 0 }
-		}
-
-		categories = {
-			cat_light_armor
-		}
-	}
-	ukr_bronemashina2 = {
-
-		enable_equipments = {
-			bronemashina2_chassis
-		}
-
-		path = {
-			leads_to_tech = ukr_bronemashina3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = -8 y = 2 }
-		}
-
-		categories = {
-			cat_light_armor
-		}
-	}
-	ukr_bronemashina3 = {
-
-		enable_equipments = {
-			bronemashina3_chassis
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = -8 y = 4 }
-		}
-
-		categories = {
-			cat_light_armor
-		}
-	}
-		
-	ukr_tyazbronemashina1 = {
-
-		enable_equipments = {
-			tyazbronemashina1_chassis
-			mlrs1_chassis
-			medium_zrk1_chassis
-		}
-
-		path = {
-			leads_to_tech = ukr_tyazbronemashina2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = -4 y = 0 }
-		}
-
-		categories = {
-			cat_light_armor
-		}
-	}
-	ukr_tyazbronemashina2 = {
-
-		enable_equipments = {
-			tyazbronemashina2_chassis
-			mlrs2_chassis
-			medium_zrk2_chassis
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = -4 y = 2 }
+			position = { x = 2 y = 0 }
 		}
 
 		categories = {
@@ -105,19 +29,14 @@ technologies = {
 		}
 	}
 
-	ukr_btr1 = {
+	ukr_t80B = {
 
 		enable_equipments = {
-			btr1_chassis
-		}
-
-		enable_subunits = {
-            BTR_nato
-			BTR
+			tank_sov_t80B_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_btr2
+			leads_to_tech = ukr_t80BV
 			research_cost_coeff = 1
 		}
 
@@ -125,21 +44,27 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 0 y = 0 }
+			position = { x = 2 y = 2 }
 		}
 
 		categories = {
-			cat_medium_armor
+			cat_light_armor
 		}
 	}
-	ukr_btr2 = {
+
+	ukr_t80BV = {
 
 		enable_equipments = {
-			btr2_chassis
+			tank_sov_t80BV_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_btr3
+			leads_to_tech = ukr_t84_Oplot 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = ukr_t80Y 
 			research_cost_coeff = 1
 		}
 
@@ -147,21 +72,21 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 0 y = 2 }
+			position = { x = 2 y = 4 }
 		}
 
 		categories = {
-			cat_medium_armor
+			cat_light_armor
 		}
 	}
-	ukr_btr3 = {
+
+	ukr_t80Y = {
 
 		enable_equipments = {
-			btr3_chassis
+			tank_sov_t80Y_chassis
 		}
 
-        path = {
-			leads_to_tech = ukr_btr4
+		path = {
 			research_cost_coeff = 1
 		}
 
@@ -169,46 +94,22 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 5 }
 		}
 
 		categories = {
-			cat_medium_armor
+			cat_light_armor
 		}
 	}
 
-    ukr_btr4 = {
+	ukr_t84_Oplot = {
 
 		enable_equipments = {
-			btr4_chassis
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 0 y = 6 }
-		}
-
-		categories = {
-			cat_medium_armor
-		}
-	}
-
-	
-	ukr_t72korpus = {
-
-		enable_equipments = {
-			t72_chassis_0
-			medium_sau_chassis_0
-		}
-
-		enable_subunits = {
-			T_72
+			tank_sov_t84Oplot_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_t84korpus
+			leads_to_tech = ukr_t84_BMOplot
 			research_cost_coeff = 1
 		}
 
@@ -216,468 +117,21 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 4 y = 0 }
+			position = { x = 2 y = 7 }
 		}
 
 		categories = {
-			cat_heavy_armor
+			cat_light_armor
 		}
 	}
-	ukr_t84korpus = {
+
+	ukr_t84_Yatagan = {
 
 		enable_equipments = {
-			t84_chassis_0
+			tank_sov_t84yatagan_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_oplotkorpus
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 4 y = 2 }
-		}
-
-		categories = {
-			cat_heavy_armor
-		}
-	}
-	ukr_oplotkorpus = {
-
-		enable_equipments = {
-			oplot_chassis_0
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 6 y = 4 }
-		}
-
-		categories = {
-			cat_heavy_armor
-		}
-	}
-	
-	ukr_t64korpus = {
-
-		enable_equipments = {
-			t64_chassis_0
-		}
-
-		enable_subunits = {
-			T_64
-		}
-
-		path = {
-			leads_to_tech = ukr_t80korpus
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 8 y = 0 }
-		}
-
-		categories = {
-			cat_heavy_armor
-		}
-	}
-
-	ukr_t80korpus = {
-
-		enable_equipments = {
-			t80_chassis_0
-		}
-
-		enable_subunits = {
-			T_80
-		}
-
-		path = {
-			leads_to_tech = ukr_oplotkorpus
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 8 y = 2 }
-		}
-
-		categories = {
-			cat_heavy_armor
-		}
-	}
-	
-	ukr_bmp1 = {
-
-		enable_equipments = {
-			bmp1a_chassis
-		}
-
-		enable_subunits = {
-            BMP_nato
-			BMP_1
-		}
-
-		path = {
-			leads_to_tech = ukr_bmp2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 12 y = 0 }
-		}
-
-		categories = {
-			cat_medium_armor
-		}
-	}
-	ukr_bmp2 = {
-
-		enable_equipments = {
-			bmp2a_chassis
-		}
-
-		enable_subunits = {
-			BMP_2
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 12 y = 2 }
-		}
-
-		categories = {
-			cat_medium_armor
-		}
-	}
-	
-	ukr_bmd1 = {
-
-		enable_equipments = {
-			bmd1_chassis
-		}
-
-		enable_subunits = {
-			BMD
-		}
-
-		path = {
-			leads_to_tech = ukr_bmd2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 16 y = 0 }
-		}
-
-		categories = {
-			cat_medium_armor
-		}
-	}
-	ukr_bmd2 = {
-
-		enable_equipments = {
-			bmd2_chassis
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 16 y = 2 }
-		}
-
-		categories = {
-			cat_medium_armor
-		}
-	}
-	
-	ukr_gmkorpus1 = {
-
-		enable_equipments = {
-			gm1_chassis
-			heavy_zrk1_chassis
-		}
-
-		path = {
-			leads_to_tech = ukr_gmkorpus2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 20 y = 0 }
-		}
-
-		categories = {
-			cat_medium_armor
-		}
-	}
-	ukr_gmkorpus2 = {
-
-		enable_equipments = {
-			gm2_chassis
-			heavy_zrk2_chassis
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 20 y = 2 }
-		}
-
-		categories = {
-			cat_medium_armor
-		}
-	}
-
-	ukr_tyazeliykorpus = {
-
-		enable_equipments = {
-			gmh_chassis_0
-			heavy_sau_chassis_0
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 24 y = 0 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-
-
-	ukr_engine1 = {
-
-		enable_equipment_modules = {
-			tank_lengine_1
-			tank_mengine_1
-			tank_hengine_1
-
-		}
-
-		path = {
-			leads_to_tech = ukr_engine2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = -2 y = 8 }
-		}
-
-		categories = {
-			engine
-		}
-	}
-
-	ukr_engine2 = {
-
-		enable_equipment_modules = {
-			tank_mengine_2
-			tank_hengine_2
-			tank_gtengine_1
-		}
-
-		path = {
-			leads_to_tech = ukr_engine3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = -2 y = 10 }
-		}
-
-		categories = {
-			engine
-		}
-	}
-
-	ukr_engine3 = {
-
-		enable_equipment_modules = {
-			tank_lengine_2
-			tank_hengine_3
-			tank_gtengine_2
-		}
-
-		path = {
-			leads_to_tech = ukr_engine4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = -2 y = 12 }
-		}
-
-		categories = {
-			engine
-		}
-	}
-
-	ukr_engine4 = {
-
-		enable_equipment_modules = {
-			tank_mengine_3
-			tank_hengine_4
-			tank_gtengine_3
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = -2 y = 14 }
-		}
-
-		categories = {
-			engine
-		}
-	}
-
-	ukr_turret1 = {
-
-		enable_equipment_modules = {
-			tank_lturret_1
-			tank_mturret_1
-			tank_hturret_1
-			tank_hturret_l1
-			tank_hturret_l2
-		}
-
-		path = {
-			leads_to_tech = ukr_turret2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 2 y = 8 }
-		}
-
-		categories = {
-			turret
-		}
-	}
-
-	ukr_turret2 = {
-
-		enable_equipment_modules = {
-			tank_mturret_2
-			tank_mturret_h
-			tank_hturret_2
-			tank_hturret_h1
-		}
-
-		path = {
-			leads_to_tech = ukr_turret3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 2 y = 10 }
-		}
-
-		categories = {
-			turret
-		}
-	}
-
-	ukr_turret3 = {
-
-		enable_equipment_modules = {
-			tank_lturret_2
-			tank_mturret_3
-			tank_mturret_b1
-		}
-
-		path = {
-			leads_to_tech = ukr_turret4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 2 y = 12 }
-		}
-
-		categories = {
-			turret
-		}
-	}
-
-	ukr_turret4 = {
-
-		enable_equipment_modules = {
-			tank_lturret_3
-			tank_mturret_b2
-			tank_hturret_3
-			tank_hturret_h2
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 2 y = 14 }
-		}
-
-		categories = {
-			turret
-		}
-	}
-
-	ukr_desant1 = {
-
-		enable_equipment_modules = {
-			tank_desant_l
-			tank_desant_1
-			tank_gruz_boek
-			tank_gruz_rel1
-		}
-
-		path = {
-			leads_to_tech = ukr_desant2
 			research_cost_coeff = 1
 		}
 
@@ -689,18 +143,17 @@ technologies = {
 		}
 
 		categories = {
-			desant_otdel
+			cat_light_armor
 		}
 	}
 
-	ukr_desant2 = {
+	ukr_t84_BMOplot = {
 
-		enable_equipment_modules = {
-			tank_desant_2
+		enable_equipments = {
+			tank_sov_t84BMOplot_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_desant3
 			research_cost_coeff = 1
 		}
 
@@ -708,45 +161,24 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 6 y = 10 }
+			position = { x = 2 y = 9 }
 		}
 
 		categories = {
-			desant_otdel
+			cat_light_armor
 		}
 	}
 
-	ukr_desant3 = {
+	##################################### T64
 
-		enable_equipment_modules = {
-			tank_desant_3
-			tank_gruz_rel2
-		}
+	ukr_t64 = {
 
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 6 y = 12 }
-		}
-
-		categories = {
-			desant_otdel
-		}
-	}
-
-	ukr_passzachita1 = {
-
-		enable_equipment_modules = {
-			tank_armor_h_1
-			tank_armor_m_1
-			tank_armor_r_1
-			tank_armor_dop_1
-			tank_armor_dop_1_f
+		enable_equipments = {
+			tank_sov_t64_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_passzachita2
+			leads_to_tech = ukr_t64B
 			research_cost_coeff = 1
 		}
 
@@ -754,29 +186,22 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 10 y = 8 }
+			position = { x = 5 y = 0 }
 		}
 
 		categories = {
-			passivedefend
+			cat_light_armor
 		}
-	}
+	}	
 
-	ukr_passzachita2 = {
+	ukr_t64B = {
 
-		enable_equipment_modules = {
-			tank_armor_h_2
-			tank_armor_m_2
-			tank_armor_l_1
-			tank_armor_r_2
-			tank_armor_r_3
-			tank_armor_dop_2
-			tank_armor_dop_2_f
-			tank_armor_mina_1
+		enable_equipments = {
+			tank_sov_t64b_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_passzachita3
+			leads_to_tech = ukr_t64BV
 			research_cost_coeff = 1
 		}
 
@@ -784,27 +209,22 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 10 y = 10 }
+			position = { x = 5 y = 2 }
 		}
 
 		categories = {
-			passivedefend
+			cat_light_armor
 		}
 	}
 
-	ukr_passzachita3 = {
+	ukr_t64BV = {
 
-		enable_equipment_modules = {
-			tank_armor_h_3
-			tank_armor_l_2
-			tank_armor_r_4
-			tank_armor_r_5
-			tank_armor_r_6
-			tank_armor_k_1
+		enable_equipments = {
+			tank_sov_t64bv_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_passzachita4
+			leads_to_tech = ukr_t64BM
 			research_cost_coeff = 1
 		}
 
@@ -812,46 +232,24 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 10 y = 12 }
+			position = { x = 5 y = 4 }
 		}
 
 		categories = {
-			passivedefend
+			cat_light_armor
 		}
 	}
 
-	ukr_passzachita4 = {
 
-		enable_equipment_modules = {
-			tank_armor_h_4
-			tank_armor_r_7
-			tank_armor_mina_2
-			tank_armor_k_2
-		}
 
-		research_cost = 1.5
+	ukr_t64BM = {
 
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 10 y = 14 }
-		}
-
-		categories = {
-			passivedefend
-		}
-	}
-
-	ukr_electr1 = {
-
-		enable_equipment_modules = {
-			tank_cyo_t_1
-			tank_cyo_a_1
-			tank_cyo_aa_1
-			tank_elec_1
+		enable_equipments = {
+			tank_sov_t64bmBulat_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_electr2
+			leads_to_tech = ukr_t64BM2017
 			research_cost_coeff = 1
 		}
 
@@ -859,23 +257,28 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 14 y = 8 }
+			position = { x = 5 y = 6 }
 		}
 
 		categories = {
-			electronics_tank
+			cat_light_armor
 		}
 	}
 
-	ukr_electr2 = {
 
-		enable_equipment_modules = {
-			tank_cyo_t_1a
-			tank_cyo_aa_1a
+	ukr_t64BM2017 = {
+
+		enable_equipments = {
+			tank_sov_t64bmBulat2017_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_electr3
+			leads_to_tech = ukr_t64BM2023
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = ukr_t64e
 			research_cost_coeff = 1
 		}
 
@@ -883,23 +286,21 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 16 y = 9 }
+			position = { x = 5 y = 8 }
 		}
 
 		categories = {
-			electronics_tank
+			cat_light_armor
 		}
 	}
 
-	ukr_electr3 = {
+	ukr_t64BM2023 = {
 
-		enable_equipment_modules = {
-			tank_cyo_t_2
-			tank_cyo_a_1a
+		enable_equipments = {
+			tank_sov_t64bmBulat2023_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_electr4
 			research_cost_coeff = 1
 		}
 
@@ -907,26 +308,22 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 14 y = 10 }
+			position = { x = 7 y = 10 }
 		}
 
 		categories = {
-			electronics_tank
+			cat_light_armor
 		}
 	}
 
-	ukr_electr4 = {
 
-		enable_equipment_modules = {
-			tank_cyo_t_2a
-			tank_cyo_aa_2
-			tank_elec_2
-			tank_kaz_1
-			
+	ukr_t64e = {
+
+		enable_equipments = {
+			tank_sov_t64e_chassis
 		}
 
 		path = {
-			leads_to_tech = ukr_electr5
 			research_cost_coeff = 1
 		}
 
@@ -934,206 +331,143 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 16 y = 11 }
+			position = { x = 9 y = 8 }
 		}
 
 		categories = {
-			electronics_tank
-		}
-	}
-
-	ukr_electr5 = {
-
-		enable_equipment_modules = {
-			tank_cyo_t_3
-			tank_cyo_a_2
-		}
-
-		path = {
-			leads_to_tech = ukr_electr6
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 14 y = 12 }
-		}
-
-		categories = {
-			electronics_tank
-		}
-	}
-
-	ukr_electr6 = {
-
-		enable_equipment_modules = {
-			tank_cyo_t_3a
-			tank_cyo_aa_2a
-			tank_elec_3
-			tank_kaz_2
-			tank_o_bpla
-		}
-
-		path = {
-			leads_to_tech = ukr_electr7
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 16 y = 13 }
-		}
-
-		categories = {
-			electronics_tank
-		}
-	}
-
-	ukr_electr7 = {
-
-		enable_equipment_modules = {
-			tank_cyo_t_4
-			tank_cyo_a_2a
-			tank_cyo_aa_3
-		}
-
-		path = {
-			leads_to_tech = ukr_electr8
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 14 y = 14 }
-		}
-
-		categories = {
-			electronics_tank
-		}
-	}
-
-	ukr_electr8 = {
-
-		enable_equipment_modules = {
-			tank_cyo_t_4a
-			tank_cyo_aa_3a
-			tank_elec_4
-			tank_kaz_3
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 16 y = 15 }
-		}
-
-		categories = {
-			electronics_tank
-		}
-	}
-
-	ukr_oborudovanie1 = {
-
-		enable_equipment_modules = {
-			tank_kz_1
-			tank_o_recon_1
-			tank_o_rel_1
-			tank_o_prip_1
-		}
-
-		path = {
-			leads_to_tech = ukr_oborudovanie2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 20 y = 8 }
-		}
-
-		categories = {
-			oborudovanie
-		}
-	}
-
-	ukr_oborudovanie2 = {
-
-		enable_equipment_modules = {
-			tank_kz_2
-			tank_o_akpp
-			tank_o_recon_2
-		}
-
-		path = {
-			leads_to_tech = ukr_oborudovanie3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 20 y = 10 }
-		}
-
-		categories = {
-			oborudovanie
-		}
-	}
-
-	ukr_oborudovanie3 = {
-
-		enable_equipment_modules = {
-			tank_kz_3
-			tank_o_sus_1
-			tank_o_rel_2
-			tank_o_prip_2
-		}
-
-		path = {
-			leads_to_tech = ukr_oborudovanie4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 20 y = 12 }
-		}
-
-		categories = {
-			oborudovanie
-		}
-	}
-
-	ukr_oborudovanie4 = {
-
-		enable_equipment_modules = {
-			tank_kz_4
-			tank_o_recon_3
-			tank_o_rel_3
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_armour_folder
-			position = { x = 20 y = 14 }
-		}
-
-		categories = {
-			oborudovanie
+			cat_light_armor
 		}
 	}
 	
+	############################################################################
+	#################################
+	######################## T-72
+
+	ukr_t72 = {
+
+		enable_equipments = {
+			tank_sov_t72a_chassis
+		}
+
+		path = {
+		leads_to_tech = ukr_t72B
+
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = ukr_armour_folder
+			position = { x = 14 y = 0 }
+		}
+
+		categories = {
+			cat_light_armor
+		}
+	}
+
+
+	ukr_t72B = {
+
+		enable_equipments = {
+			tank_sov_t72b_chassis
+		}
+
+		path = {
+			leads_to_tech = ukr_t72YA
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = ukr_t72AG
+				research_cost_coeff = 1
+			}
+
+			path = {
+				leads_to_tech = ukr_t72AMT
+					research_cost_coeff = 1
+				}
+
+		research_cost = 1.5
+
+		folder = {
+			name = ukr_armour_folder
+			position = { x = 14 y = 2 }
+		}
+
+		categories = {
+			cat_light_armor
+		}
+	}
+
+	
+	ukr_t72YA = {
+
+		enable_equipments = {
+			tank_sov_t72ya_chassis
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = ukr_armour_folder
+			position = { x = 12 y = 4 }
+		}
+
+		categories = {
+			cat_light_armor
+		}
+	}
+
+	ukr_t72AG = {
+
+		enable_equipments = {
+			tank_sov_t72ag_chassis
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = ukr_armour_folder
+			position = { x = 16 y = 4 }
+		}
+
+		categories = {
+			cat_light_armor
+		}
+	}
+
+	ukr_t72AMT = {
+
+		enable_equipments = {
+			tank_sov_t72amt_chassis
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = ukr_armour_folder
+			position = { x = 14 y = 4 }
+		}
+
+		categories = {
+			cat_light_armor
+		}
+	}
+
+
+
 }

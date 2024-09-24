@@ -39,7 +39,8 @@ sub_units = {
 	
   
 		need = {
-			t64_chassis = 10
+			SovietOBT_tank_chassis = 10
+			#t64_chassis = 10
 			infantry_equipment = 10
 		}
 		plains = {
@@ -143,7 +144,8 @@ sub_units = {
 	
   
 		need = {
-			t72_chassis = 10
+			SovietOBT_tank_chassis = 10
+			#t72_chassis = 10
 			infantry_equipment = 10
 		}
 		plains = {
@@ -247,7 +249,8 @@ sub_units = {
 	
   
 		need = {
-			t80_chassis = 10
+			SovietOBT_tank_chassis = 10
+			#t80_chassis = 10
 			infantry_equipment = 10
 		}
 		plains = {
