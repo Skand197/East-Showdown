@@ -97,16 +97,58 @@ set_technology = {
 	ukr_btr1 = 1
 	ukr_btr2 = 1
 	ukr_btr3 = 1
-	ukr_btr4 = 1
 	ukr_t72korpus = 1
 	ukr_t84korpus = 1
 	ukr_oplotkorpus = 1
 	ukr_t64korpus = 1
 	ukr_t80korpus = 1
-	ukr_bmp1 = 1
-	ukr_bmp2 = 1
-	ukr_bmd1 = 1
-	ukr_bmd2 = 1
+
+
+##########################
+ukr_btr60 = 1
+ukr_btr70 = 1
+ukr_btr80 = 1
+ukr_btr3y = 1
+ukr_btr3e = 1
+ukr_btr4 = 1
+ukr_btr4bm = 1
+
+ukr_bmp1shkval = 1
+	ukr_kozak2 = 1
+ukr_Varta = 1
+ukr_Novator = 1
+#lanca
+ukr_t80 = 1
+ukr_t80B = 1 
+ukr_t80BV = 1
+ukr_t80Y = 1
+ukr_t80YD = 1
+ukr_t84_Oplot = 1
+ukr_t84_Yatagan = 1
+ukr_t84_BMOplot = 1
+
+ukr_t64 = 1
+ukr_t64B = 1
+ukr_t64BV = 1
+ukr_t64BM = 1
+ukr_t64BM2017 = 1
+ukr_t64BM2023 = 1
+
+ukr_t72 = 1
+ukr_t72B = 1
+ukr_t72E = 1
+ukr_t72YA = 1
+ukr_t72AG = 1
+ukr_t72AMT = 1
+
+ukr_bmd1 = 1
+ukr_bmd2 = 1
+
+ukr_bmp1 = 1
+ukr_bmp2 = 1
+
+
+
 	ukr_gmkorpus1 = 1
 	ukr_gmkorpus2 = 1
 	ukr_tyazeliykorpus = 1
@@ -138,6 +180,8 @@ set_technology = {
 	ukr_oborudovanie2 = 1
 	ukr_oborudovanie3 = 1
 	ukr_oborudovanie4 = 1
+
+
 }
 
 add_ideas = {
@@ -386,995 +430,6 @@ create_navy_leader = {
 
 
 
-create_equipment_variant = {
-	name = "\"Дозор-Б\" с \"Корд\""
-	type = bronemashina1_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_heavy_machine_gun
-		engine_type_slot = tank_lengine_2
-		turret_type_slot = tank_lturret_1
-		gruz_type_slot = tank_desant_l
-		armor_type_slot = tank_armor_l_1
-		cyo_type_slot = tank_cyo_a_1
-		electronic_type_slot = tank_elec_1
-		special_type_slot_1 = tank_kz_1
-		special_type_slot_2 = tank_o_rel_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_UKR_bronemashina1_AAB"
-}
-create_equipment_variant = {
-	name = "\"Дозор-Б\""
-	type = bronemashina1_chassis
-	parent_version = 0
-	modules = {
-		engine_type_slot = tank_lengine_2
-		turret_type_slot = tank_lturret_1
-		gruz_type_slot = tank_desant_l
-		armor_type_slot = tank_armor_l_1
-		cyo_type_slot = tank_cyo_a_1
-		electronic_type_slot = tank_elec_1
-		special_type_slot_2 = tank_o_rel_1
-		special_type_slot_3 = tank_o_prip_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_UKR_bronemashina1_AAB"
-}
-create_equipment_variant = {
-	name = "\"Дозор-Б\" c 30мм автопушкой"
-	type = bronemashina1_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_autogun
-		additional_armament_slot = tank_dop_machine_gun
-		engine_type_slot = tank_lengine_2
-		turret_type_slot = tank_lturret_3
-		gruz_type_slot = tank_desant_l
-		armor_type_slot = tank_armor_l_1
-		cyo_type_slot = tank_cyo_a_1
-		electronic_type_slot = tank_elec_2
-		special_type_slot_2 = tank_o_rel_2
-		special_type_slot_3 = tank_o_prip_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_UKR_bronemashina1_AAB"
-}
-create_equipment_variant = {
-	name = "HMMWV"
-	type = bronemashina2_chassis
-	parent_version = 0
-	modules = {
-		engine_type_slot = tank_lengine_2
-		gruz_type_slot = tank_desant_l
-		armor_type_slot = tank_armor_l_1
-		electronic_type_slot = tank_elec_2
-		special_type_slot_2 = tank_o_rel_3
-		special_type_slot_3 = tank_o_prip_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_UKR_bronemashina1_AAB"
-}
-create_equipment_variant = {
-	name = "HMMWV c \"Корд\""
-	type = bronemashina2_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_heavy_machine_gun
-		engine_type_slot = tank_lengine_2
-		gruz_type_slot = tank_desant_l
-		armor_type_slot = tank_armor_l_1
-		cyo_type_slot = tank_cyo_a_1a
-		electronic_type_slot = tank_elec_2
-		special_type_slot_2 = tank_o_rel_3
-		special_type_slot_3 = tank_o_prip_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_UKR_bronemashina2_AAB"
-}
-create_equipment_variant = {
-	name = "HMMWV c CROWS"
-	type = bronemashina2_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_heavy_machine_gun
-		engine_type_slot = tank_lengine_2
-		gruz_type_slot = tank_desant_l
-		armor_type_slot = tank_armor_l_1
-		cyo_type_slot = tank_cyo_a_2
-		electronic_type_slot = tank_elec_2
-		turret_type_slot = tank_lturret_2
-		special_type_slot_1 = tank_armor_mina_1
-		special_type_slot_2 = tank_o_rel_3
-		special_type_slot_3 = tank_o_prip_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_UKR_bronemashina2_AAB"
-}
-create_equipment_variant = {
-	name = "\"Новатор\""
-	type = bronemashina3_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_heavy_machine_gun
-		engine_type_slot = tank_lengine_2
-		gruz_type_slot = tank_desant_l
-		armor_type_slot = tank_armor_l_2
-		cyo_type_slot = tank_cyo_a_2
-		special_type_slot_3 = tank_o_prip_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_UKR_bronemashina3_AAB"
-}
-create_equipment_variant = {
-	name = "Козак 2"
-	type = bronemashina3_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_heavy_machine_gun
-		engine_type_slot = tank_lengine_2
-		gruz_type_slot = tank_desant_l
-		armor_type_slot = tank_armor_l_2
-		electronic_type_slot = tank_elec_2
-		cyo_type_slot = tank_cyo_a_2
-		special_type_slot_1 = tank_armor_mina_1
-		special_type_slot_2 = tank_armor_dop_1_f
-		special_type_slot_3 = tank_o_prip_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_bronemashina3_AAB"
-}
-create_equipment_variant = {
-	name = "Варта"
-	type = bronemashina3_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_heavy_machine_gun
-		engine_type_slot = tank_lengine_2
-		gruz_type_slot = tank_desant_l
-		armor_type_slot = tank_armor_l_2
-		electronic_type_slot = tank_elec_2
-		cyo_type_slot = tank_cyo_a_2
-		special_type_slot_1 = tank_armor_mina_2
-		special_type_slot_2 = tank_kz_2
-		special_type_slot_3 = tank_o_prip_2
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_bronemashina3_AAB"
-}
-create_equipment_variant = {
-	name = "Тор-М1"
-	type = medium_zrk1_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_light_aa1
-		engine_type_slot = tank_lengine_2
-		turret_type_slot = tank_mturret_2
-		gruz_type_slot = tank_gruz_boek
-		cyo_type_slot = tank_cyo_aa_2
-		electronic_type_slot = tank_elec_2
-		special_type_slot_1 = tank_o_rel_3
-		special_type_slot_2 = tank_o_rel_3
-		special_type_slot_4 = tank_gruz_boek
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_tor_AA"
-}
-create_equipment_variant = {
-	name = "Оса"
-	type = medium_zrk1_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_light_aa1
-		engine_type_slot = tank_lengine_1
-		turret_type_slot = tank_mturret_b2
-		gruz_type_slot = tank_gruz_boek
-		cyo_type_slot = tank_cyo_aa_1
-		electronic_type_slot = tank_elec_2
-		special_type_slot_1 = tank_o_rel_3
-		special_type_slot_2 = tank_o_rel_3
-		special_type_slot_4 = tank_gruz_boek
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_osa_AA"
-}
-create_equipment_variant = {
-	name = "Тунгуска"
-	type = medium_zrk1_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_30mm_2
-		additional_armament_slot = tank_dop_light_aa2
-		engine_type_slot = tank_lengine_2
-		turret_type_slot = tank_mturret_b2
-		gruz_type_slot = tank_gruz_boek
-		cyo_type_slot = tank_cyo_aa_2a
-		electronic_type_slot = tank_elec_2
-		special_type_slot_1 = tank_o_rel_3
-		special_type_slot_2 = tank_o_rel_3
-		special_type_slot_3 = tank_o_rel_3
-		special_type_slot_4 = tank_gruz_boek
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_tunguska_AA"
-}
-create_equipment_variant = {
-	name = "Стрела-10"
-	type = medium_zrk1_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_light_aa1
-		engine_type_slot = tank_lengine_1
-		turret_type_slot = tank_mturret_2
-		gruz_type_slot = tank_gruz_boek
-		cyo_type_slot = tank_cyo_aa_1a
-		electronic_type_slot = tank_elec_2
-		special_type_slot_1 = tank_o_rel_2
-		special_type_slot_2 = tank_o_rel_2
-		special_type_slot_4 = tank_gruz_boek
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_strela_AA"
-}
-create_equipment_variant = {
-	name = "Урал-4320"
-	type = tyazbronemashina1_chassis
-	parent_version = 0
-	modules = {
-		engine_type_slot = tank_lengine_1
-		special_type_slot_1 = tank_o_rel_1
-		special_type_slot_2 = tank_o_prip_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_tyazbronemashina1_AAB"
-}
-create_equipment_variant = {
-	name = "БМ-21 \"Град\""
-	type = mlrs1_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_mlrs_122mm
-		engine_type_slot = tank_lengine_1
-		turret_type_slot = tank_hturret_l2
-		gruz_type_slot = tank_gruz_boek
-		cyo_type_slot = tank_cyo_a_1
-		special_type_slot_1 = tank_o_rel_3
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	obsolete = yes
-	icon = "GFX_tyazbronemashina1_ABB"
-}
-create_equipment_variant = {
-	name = "БМ-21У \"Верба\""
-	type = mlrs1_chassis
-	parent_version = 1
-	modules = {
-		main_armament_slot = tank_mlrs_122mm
-		engine_type_slot = tank_lengine_1
-		turret_type_slot = tank_hturret_l2
-		gruz_type_slot = tank_gruz_boek
-		cyo_type_slot = tank_cyo_a_2
-		electronic_type_slot = tank_elec_1
-		special_type_slot_1 = tank_o_rel_3
-		special_type_slot_2 = tank_o_rel_3
-		special_type_slot_3 = tank_o_bpla
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_tyazbronemashina1_ABB"
-}
-create_equipment_variant = {
-	name = "9К57 \"Ураган\""
-	type = mlrs2_chassis
-	parent_version = 2
-	modules = {
-		main_armament_slot = tank_mlrs_220mm
-		engine_type_slot = tank_lengine_1
-		turret_type_slot = tank_hturret_l2
-		gruz_type_slot = tank_gruz_boek
-		electronic_type_slot = tank_elec_1
-		cyo_type_slot = tank_cyo_a_2
-		special_type_slot_1 = tank_o_rel_1
-		special_type_slot_2 = tank_o_rel_3
-		special_type_slot_3 = tank_o_bpla
-		special_type_slot_4 = tank_gruz_boek
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_tyazbronemashina1_ABC"
-}
-create_equipment_variant = {
-	name = "\"Ольха\""
-	type = mlrs2_chassis
-	parent_version = 3
-	modules = {
-		main_armament_slot = tank_mlrs_300mm
-		engine_type_slot = tank_lengine_1
-		turret_type_slot = tank_hturret_l2
-		gruz_type_slot = tank_gruz_boek
-		electronic_type_slot = tank_elec_2
-		cyo_type_slot = tank_cyo_a_2a
-		special_type_slot_1 = tank_o_rel_2
-		special_type_slot_2 = tank_o_rel_3
-		special_type_slot_3 = tank_o_bpla
-		special_type_slot_4 = tank_gruz_boek
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_tyazbronemashina1_ABD"
-}
-create_equipment_variant = {
-	name = "БМП-1 БМ"
-	type = bmp1a_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_73mm
-		additional_armament_slot = tank_dop_machine_gun
-		at_armament_slot = tank_at_missle_9k11
-		engine_type_slot = tank_mengine_1
-		turret_type_slot = tank_mturret_1
-		gruz_type_slot = tank_desant_2
-		armor_type_slot = tank_armor_m_1
-		electronic_type_slot = tank_elec_1
-		special_type_slot_2 = tank_o_rel_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_bmp1_AAB"
-}
-create_equipment_variant = {
-	name = "БМП-1Д"
-	type = bmp1a_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_73mm
-		additional_armament_slot = tank_dop_machine_gun
-		engine_type_slot = tank_mengine_1
-		turret_type_slot = tank_mturret_1
-		gruz_type_slot = tank_desant_2
-		armor_type_slot = tank_armor_m_1
-		additional_armor_type_slot = tank_armor_dop_1
-		electronic_type_slot = tank_elec_1
-		special_type_slot_2 = tank_o_rel_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	obsolete = yes
-	icon = "GFX_bmp1_AAB"
-}
-create_equipment_variant = {
-	name = "БМП-1П"
-	type = bmp1a_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_73mm
-		additional_armament_slot = tank_dop_machine_gun
-		at_armament_slot = tank_at_missle_9k111_1
-		engine_type_slot = tank_mengine_1
-		turret_type_slot = tank_mturret_1
-		gruz_type_slot = tank_desant_2
-		armor_type_slot = tank_armor_m_1
-		electronic_type_slot = tank_elec_1
-		special_type_slot_1 = tank_kz_1
-		special_type_slot_2 = tank_o_rel_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	obsolete = yes
-	icon = "GFX_bmp1_AAE"
-}
-create_equipment_variant = {
-	name = "БМП-1У"
-	type = bmp1a_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_autogun
-		additional_armament_slot = tank_dop_ags
-		at_armament_slot = tank_at_missle_9k111_1
-		engine_type_slot = tank_mengine_1
-		turret_type_slot = tank_mturret_2
-		gruz_type_slot = tank_desant_2
-		armor_type_slot = tank_armor_m_1
-		electronic_type_slot = tank_elec_2
-		special_type_slot_1 = tank_kz_1
-		special_type_slot_2 = tank_o_rel_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_bmp1_AAE"
-}
-create_equipment_variant = {
-	name = "БМП-2 БМ"
-	type = bmp2a_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_autogun
-		additional_armament_slot = tank_dop_machine_gun
-		at_armament_slot = tank_at_missle_9k111_1
-		engine_type_slot = tank_mengine_1
-		turret_type_slot = tank_mturret_2
-		gruz_type_slot = tank_desant_2
-		armor_type_slot = tank_armor_m_1
-		electronic_type_slot = tank_elec_2
-		cyo_type_slot = tank_cyo_t_1a
-		special_type_slot_1 = tank_kz_1
-		special_type_slot_2 = tank_o_rel_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_bmp2_AAB"
-}
-create_equipment_variant = {
-	name = "БМП-2Д"
-	type = bmp2a_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_autogun
-		additional_armament_slot = tank_dop_machine_gun
-		at_armament_slot = tank_at_missle_9k111_1
-		engine_type_slot = tank_mengine_1
-		turret_type_slot = tank_mturret_2
-		gruz_type_slot = tank_desant_2
-		armor_type_slot = tank_armor_m_1
-		additional_armor_type_slot = tank_armor_dop_1
-		electronic_type_slot = tank_elec_2
-		cyo_type_slot = tank_cyo_t_1a
-		special_type_slot_1 = tank_kz_1
-		special_type_slot_2 = tank_o_rel_1
-		special_type_slot_3 = tank_armor_mina_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	obsolete = yes
-	icon = "GFX_bmp2_AAC"
-}
-
-create_equipment_variant = {
-	name = "Т-64"
-	type = t64_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_125mm_1
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		engine_type_slot = tank_hengine_1
-		turret_type_slot = tank_hturret_1
-		gruz_type_slot = tank_gruz_rel2
-		armor_type_slot = tank_armor_h_1
-		electronic_type_slot = tank_elec_1
-		cyo_type_slot = tank_cyo_t_1
-		special_type_slot_2 = tank_kz_1
-		special_type_slot_1 = tank_o_rel_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_t64_AAB"
-}
-create_equipment_variant = {
-	name = "Т-64Б"
-	type = t64_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_125mm_1
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		at_armament_slot = tank_at_missle_9k119
-		engine_type_slot = tank_hengine_2
-		turret_type_slot = tank_hturret_1
-		gruz_type_slot = tank_gruz_rel2
-		armor_type_slot = tank_armor_h_2
-		electronic_type_slot = tank_elec_1
-		cyo_type_slot = tank_cyo_t_1a
-		special_type_slot_2 =  tank_kz_1
-		special_type_slot_1 = tank_o_rel_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_t64_AAC"
-}
-create_equipment_variant = {
-	name = "Т-64БВ"
-	type = t64_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_125mm_1
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		at_armament_slot = tank_at_missle_9k119
-		engine_type_slot = tank_hengine_2
-		turret_type_slot = tank_hturret_1
-		gruz_type_slot = tank_gruz_rel2
-		armor_type_slot = tank_armor_h_2
-		additional_armor_type_slot = tank_armor_r_1
-		electronic_type_slot = tank_elec_1
-		cyo_type_slot = tank_cyo_t_1a
-		special_type_slot_2 =  tank_kz_1
-		special_type_slot_1 = tank_o_rel_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_t64_AAC"
-}
-create_equipment_variant = {
-	name = "Т-64БМ \"Булат\""
-	type = t64_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_125mm_1
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		at_armament_slot = tank_at_missle_9k119
-		engine_type_slot = tank_hengine_3
-		turret_type_slot = tank_hturret_1
-		gruz_type_slot = tank_gruz_rel2
-		armor_type_slot = tank_armor_h_3
-		additional_armor_type_slot = tank_armor_r_4
-		electronic_type_slot = tank_elec_2
-		cyo_type_slot = tank_cyo_t_2
-		special_type_slot_2 =  tank_kz_2
-		special_type_slot_1 = tank_o_rel_2
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_t64_AAC"
-}
-create_equipment_variant = {
-	name = "Т-72A/Б"
-	type = t72_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_125mm_1
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		at_armament_slot = tank_at_missle_9k119
-		engine_type_slot = tank_hengine_2
-		turret_type_slot = tank_hturret_1
-		gruz_type_slot = tank_gruz_rel2
-		armor_type_slot = tank_armor_h_2
-		additional_armor_type_slot  = tank_armor_r_3
-		electronic_type_slot = tank_elec_2
-		cyo_type_slot = tank_cyo_t_2a
-		special_type_slot_2 = tank_kz_2
-		special_type_slot_1 = tank_o_rel_2
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_t72_ACD"
-}
-
-
-####lancaster
-#create_equipment_variant = {
-	#name = "Т-72Б"
-	#type = sov_t72b_chassis_1
-	#parent_version = 0
-	#modules = {
-		#main_armament_slot = tank_125mm2a46_m2  ##пушка
-		#additional_armament_slot = tank_dop_heavy_machine_gun ##пулимет
-		#at_armament_slot = tank_at_missle_9k119 ##птур
-		#engine_type_slot = tank_b8413 ##двигатель
-		#turret_type_slot = tank_hturret_1 ##башня
-		#gruz_type_slot = tank_gruz_rel2 ##автомат зарежания
-		#armor_type_slot = tank_armor_h_2 ##броня
-		#additional_armor_type_slot  = tank_armor_r_3  ##броня+
-	#	electronic_type_slot = tank_elec_2  ##тут будут теплаки
-	#	cyo_type_slot = tank_1a42irtish #syo
-	#	special_type_slot_2 = tank_kz_2
-	#	special_type_slot_1 = tank_o_rel_2
-	#}
-	#upgrades = {
-	#	tank_nsb_engine_upgrade = 0
-		#tank_nsb_armor_upgrade = 0
-	#}
-	#icon = "GFX_t72_ADD"
-#}
-
-
-
-
-
-
-
-create_equipment_variant = {
-	name = "Т-80БВ"
-	type = t80_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_125mm_2
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		at_armament_slot = tank_at_missle_9k119
-		engine_type_slot = tank_gtengine_2
-		turret_type_slot = tank_hturret_1
-		gruz_type_slot = tank_gruz_rel2
-		armor_type_slot = tank_armor_h_2
-		additional_armor_type_slot = tank_armor_r_1
-		electronic_type_slot = tank_elec_2
-		cyo_type_slot = tank_cyo_t_2
-		special_type_slot_1 = tank_o_rel_1
-		special_type_slot_2 = tank_kz_1
-		special_type_slot_3 = tank_armor_dop_1_f
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	obsolete = yes
-	icon = "GFX_t80_AAC"
-}
-create_equipment_variant = {
-	name = "Т-80У"
-	type = t80_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_125mm_1
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		at_armament_slot = tank_at_missle_9k119
-		engine_type_slot = tank_gtengine_3
-		turret_type_slot = tank_hturret_1
-		gruz_type_slot = tank_gruz_rel2
-		armor_type_slot = tank_armor_h_2
-		additional_armor_type_slot = tank_armor_r_3
-		electronic_type_slot = tank_elec_2
-		cyo_type_slot = tank_cyo_t_2a
-		special_type_slot_1 = tank_o_rel_2
-		special_type_slot_2 = tank_kz_2
-		special_type_slot_3 = tank_armor_dop_1_f
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_t80_AAD"
-}
-create_equipment_variant = {
-	name = "Т-80УД"
-	type = t80_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_125mm_1
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		at_armament_slot = tank_at_missle_9k119
-		engine_type_slot = tank_hengine_2
-		turret_type_slot = tank_hturret_1
-		gruz_type_slot = tank_gruz_rel2
-		armor_type_slot = tank_armor_h_2
-		additional_armor_type_slot = tank_armor_r_3
-		electronic_type_slot = tank_elec_3
-		cyo_type_slot = tank_cyo_t_2a
-		special_type_slot_1 = tank_o_rel_2
-		special_type_slot_2 = tank_kz_2
-		special_type_slot_3 = tank_armor_dop_1_f
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	obsolete = yes
-	icon = "GFX_t80_AAD"
-}
-create_equipment_variant = {
-	name = "Т-84"
-	type = t84_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_125mm_1
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		at_armament_slot = tank_at_missle_9k119
-		engine_type_slot = tank_hengine_3
-		turret_type_slot = tank_hturret_2
-		gruz_type_slot = tank_gruz_rel2
-		armor_type_slot = tank_armor_h_2
-		additional_armor_type_slot = tank_armor_r_4
-		electronic_type_slot = tank_elec_3
-		cyo_type_slot = tank_cyo_t_2a
-		special_type_slot_1 = tank_kaz_1
-		special_type_slot_2 = tank_kz_2
-		special_type_slot_3 = tank_armor_dop_1_f
-		special_type_slot_4 = tank_o_rel_2
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_t84"
-}
-create_equipment_variant = {
-	name = "БМ \"Оплот\""
-	type = oplot_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_125mm_2
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		at_armament_slot = tank_at_missle_9k119
-		engine_type_slot = tank_hengine_4
-		turret_type_slot = tank_hturret_2
-		gruz_type_slot = tank_gruz_rel2
-		armor_type_slot = tank_armor_h_2
-		additional_armor_type_slot = tank_armor_r_5
-		electronic_type_slot = tank_elec_4
-		cyo_type_slot = tank_cyo_t_4
-		special_type_slot_1 = tank_kaz_1
-		special_type_slot_2 = tank_kz_3
-		special_type_slot_3 = tank_armor_dop_1_f
-		special_type_slot_4 = tank_o_rel_2
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_oplot"
-}
-create_equipment_variant = {
-	name = "2С1"
-	type = medium_sau_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_122mm
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		engine_type_slot = tank_hengine_1
-		turret_type_slot = tank_hturret_h1
-		gruz_type_slot = tank_gruz_boek
-		armor_type_slot = tank_armor_h_1
-		electronic_type_slot = tank_elec_2
-		cyo_type_slot = tank_cyo_t_2a
-		special_type_slot_1 = tank_o_rel_3
-		special_type_slot_2 = tank_o_bpla
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_t90_ABB"
-}
-create_equipment_variant = {
-	name = "МСТА-С"
-	type = medium_sau_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_152mm_art_1
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		engine_type_slot = tank_hengine_2
-		turret_type_slot = tank_hturret_h1
-		gruz_type_slot = tank_gruz_boek
-		armor_type_slot = tank_armor_h_3
-		electronic_type_slot = tank_elec_3
-		cyo_type_slot = tank_cyo_t_2a
-		special_type_slot_1 = tank_o_rel_2
-		special_type_slot_2 = tank_kz_1
-		special_type_slot_3 = tank_o_bpla
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_t90_ABC"
-}
-create_equipment_variant = {
-	name = "2С22 \"Богдана\""
-	type = medium_sau_chassis_0
-	parent_version = 1
-	modules = {
-		main_armament_slot = tank_152mm_art_2
-		engine_type_slot = tank_hengine_3
-		turret_type_slot = tank_hturret_h1
-		gruz_type_slot = tank_gruz_boek
-		electronic_type_slot = tank_elec_3
-		cyo_type_slot = tank_cyo_t_2a
-		special_type_slot_1 = tank_o_rel_2
-		special_type_slot_3 = tank_o_bpla
-
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_2S22_Bohdana_ABD"
-}
-#Надо будет GFX самой Богданы поставить
-create_equipment_variant = {
-	name = "БТР-70 БМ"
-	type = btr1_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_superheavy_machine_gun
-		additional_armament_slot = tank_dop_machine_gun
-		engine_type_slot = tank_mengine_1
-		turret_type_slot = tank_mturret_1
-		gruz_type_slot = tank_desant_1
-		armor_type_slot = tank_armor_m_1
-		electronic_type_slot = tank_elec_1
-		cyo_type_slot = tank_cyo_t_1
-		special_type_slot_2 = tank_kz_1
-		special_type_slot_4 = tank_o_rel_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_btr1_AAB"
-}
-create_equipment_variant = {
-	name = "БТР-80 БМ"
-	type = btr2_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_superheavy_machine_gun
-		additional_armament_slot = tank_dop_machine_gun
-		engine_type_slot = tank_mengine_1
-		turret_type_slot = tank_mturret_1
-		gruz_type_slot = tank_desant_1
-		armor_type_slot = tank_armor_m_1
-		electronic_type_slot = tank_elec_2
-		cyo_type_slot = tank_cyo_t_1a
-		special_type_slot_2 = tank_kz_1
-		special_type_slot_3 = tank_o_prip_1
-		special_type_slot_4 = tank_o_rel_2
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_btr2_AAB"
-}
-create_equipment_variant = {
-	name = "БТР-3"
-	type = btr3_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_autogun
-		additional_armament_slot = tank_dop_machine_gun
-		engine_type_slot = tank_mengine_2
-		turret_type_slot = tank_mturret_2
-		gruz_type_slot = tank_desant_1
-		armor_type_slot = tank_armor_m_1
-		electronic_type_slot = tank_elec_3
-		cyo_type_slot = tank_cyo_t_2a
-		special_type_slot_2 = tank_kz_2
-		special_type_slot_3 = tank_o_prip_1
-		special_type_slot_4 = tank_o_rel_2
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_UKR_btr3_AAB"
-}
-create_equipment_variant = {
-	name = "БТР-4 \"Буцефал\""
-	type = btr4_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_autogun
-		additional_armament_slot = tank_dop_machine_gun
-		at_armament_slot = tank_at_missle_9k135_4
-		engine_type_slot = tank_mengine_3
-		turret_type_slot = tank_mturret_b2
-		gruz_type_slot = tank_desant_3
-		armor_type_slot = tank_armor_m_2
-		electronic_type_slot = tank_elec_4
-		cyo_type_slot = tank_cyo_t_3a
-		special_type_slot_1 = tank_o_akpp
-		special_type_slot_2 = tank_kz_3
-		special_type_slot_3 = tank_o_prip_2
-		special_type_slot_4 = tank_o_rel_3
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_UKR_btr4_AAB"
-}
-create_equipment_variant = {
-	name = "2С7 \"Пион\""
-	type = heavy_sau_chassis_0
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_203mm
-		additional_armament_slot = tank_dop_heavy_machine_gun
-		engine_type_slot = tank_hengine_1
-		turret_type_slot = tank_hturret_l2
-		gruz_type_slot = tank_gruz_boek
-		armor_type_slot = tank_armor_m_1
-		electronic_type_slot = tank_elec_2
-		cyo_type_slot = tank_cyo_t_2
-		special_type_slot_1 = tank_o_bpla
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_gmh_AAB"
-}
-create_equipment_variant = {
-	name = "Бук-М1"
-	type = heavy_zrk1_chassis
-	parent_version = 0
-	modules = {
-		main_armament_slot = tank_medium_aa1
-		engine_type_slot = tank_mengine_2
-		gruz_type_slot = tank_gruz_boek
-		armor_type_slot = tank_armor_m_1
-		electronic_type_slot = tank_elec_1
-		cyo_type_slot = tank_cyo_aa_1
-		special_type_slot_2 = tank_kz_1
-		special_type_slot_4 = tank_o_rel_1
-	}
-	upgrades = {
-		tank_nsb_engine_upgrade = 0
-		tank_nsb_armor_upgrade = 0
-	}
-	icon = "GFX_UKR_t72_ACB"
-}
-
-
 
 add_equipment_production = {
 	equipment = {
@@ -1495,9 +550,8 @@ add_equipment_production = {
 }
 add_equipment_production = {
 	equipment = {
-        type = bmp1a_chassis
+        type = ukr_bmp1y_equipment
 		creator = "UKR" 
-		version_name = "БМП-1У"
 	}
 	requested_factories = 3
 	progress = 0.6
@@ -1505,9 +559,8 @@ add_equipment_production = {
 }
 add_equipment_production = {
 	equipment = {
-        type = bmp2a_chassis
+        type = sov_bmp2_equipment
 		creator = "UKR" 
-		version_name = "БМП-2Д"
 	}
 	requested_factories = 3
 	progress = 0.6
@@ -1515,9 +568,8 @@ add_equipment_production = {
 }
 add_equipment_production = {
 	equipment = {
-        type = bronemashina1_chassis
-		creator = "UKR" 
-		version_name = "\"Дозор-Б\""
+        type = bronemashina_ukrkozak2_equipment
+		creator = "UKR"   
 	}
 	requested_factories = 4
 	progress = 0.6
@@ -1525,9 +577,8 @@ add_equipment_production = {
 }
 add_equipment_production = {
 	equipment = {
-        type = btr3_chassis
+        type = ukr_bmp1y_equipment
 		creator = "UKR" 
-		version_name = "БТР-3"
 	}
 	requested_factories = 2
 	progress = 0.6
@@ -1535,9 +586,8 @@ add_equipment_production = {
 }
 add_equipment_production = {
 	equipment = {
-        type = btr4_chassis
+        type = sov_btr4_equipment
 		creator = "UKR" 
-		version_name = "БТР-4 \"Буцефал\""
 	}
 	requested_factories = 3
 	progress = 0.6
@@ -1547,7 +597,6 @@ add_equipment_production = {
 	equipment = {
         type = medium_sau_chassis_0
 		creator = "UKR" 
-		version_name = "2С1"
 	}
 	requested_factories = 3
 	progress = 0.6
@@ -1555,9 +604,8 @@ add_equipment_production = {
 }
 add_equipment_production = {
 	equipment = {
-        type = t72_chassis_0
+        type = tank_sov_t72b_equipment
 		creator = "UKR" 
-		version_name = "Т-72A/Б"
 	}
 	requested_factories = 3
 	progress = 0.6
@@ -1565,9 +613,8 @@ add_equipment_production = {
 }
 add_equipment_production = {
 	equipment = {
-        type = t64_chassis_0
+        type = tank_sov_t64bmBulat2017_equipment
 		creator = "UKR" 
-		version_name = "Т-64БМ \"Булат\""
 	}
 	requested_factories = 3
 	progress = 0.6
@@ -1577,57 +624,35 @@ add_equipment_production = {
 
 
 add_equipment_to_stockpile = {
-	type = bronemashina1_chassis
-	variant_name = "\"Дозор-Б\" с \"Корд\""
+	type = bronemashina_ukrkozak2_equipment
 	amount = 1000
 	producer = UKR
 } 
 add_equipment_to_stockpile = {
-	type = bronemashina1_chassis
-	variant_name = "\"Дозор-Б\""
-	amount = 5000
-	producer = UKR
-} 
-add_equipment_to_stockpile = {
-	type = bronemashina1_chassis
-	variant_name = "\"Дозор-Б\" c 30мм автопушкой"
-	amount = 200
-	producer = UKR
-} 
-add_equipment_to_stockpile = {
-	type = bronemashina2_chassis
-	variant_name = "HMMWV"
-	amount = 30
-	producer = UKR
-} 
-add_equipment_to_stockpile = {
-	type = bronemashina2_chassis
-	variant_name = "HMMWV c \"Корд\""
-	amount = 40
-	producer = UKR
-} 
-add_equipment_to_stockpile = {
-	type = bronemashina2_chassis
-	variant_name = "HMMWV c CROWS"
-	amount = 50
+	type = bronemashina_ukrkozak2_equipment
+	amount = 5700
 	producer = UKR
 } 
 
 add_equipment_to_stockpile = {
-	type = bronemashina3_chassis
-	variant_name = "Козак 2"
+	type = bronemashina_ukrVarta_equipment
+	amount = 170
+	producer = UKR
+} 
+
+
+add_equipment_to_stockpile = {
+	type = bronemashina_ukrNovator_equipment
 	amount = 325
 	producer = UKR
 } 
 add_equipment_to_stockpile = {
-	type = bronemashina3_chassis
-	variant_name = "Варта"
+	type = bronemashina_ukrNovator_equipment
 	amount = 275
 	producer = UKR
 } 
 add_equipment_to_stockpile = {
-	type = bronemashina3_chassis
-	variant_name = "\"Новатор\""
+	type = bronemashina_ukrNovator_equipment
 	amount = 50
 	producer = UKR
 }
@@ -1656,92 +681,63 @@ add_equipment_to_stockpile = {
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = bmp1a_chassis
-	variant_name = "БМП-1 БМ"
+	type = sov_bmp1_equipment
 	amount = 1000
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = bmp1a_chassis
-	variant_name = "БМП-1Д"
-	amount = 50
+	type = ukr_bmp1y_equipment
+	amount = 500
+	producer = UKR
+}
+
+add_equipment_to_stockpile = {
+	type = sov_bmp2_equipment
+	amount = 3000
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = bmp1a_chassis
-	variant_name = "БМП-1П"
+	type = tank_sov_t64b_equipment
 	amount = 500
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = bmp1a_chassis
-	variant_name = "БМП-1У"
-	amount = 100
-	producer = UKR
-}
-add_equipment_to_stockpile = {
-	type = bmp2a_chassis
-	variant_name = "БМП-2 БМ"
-	amount = 700
-	producer = UKR
-}
-add_equipment_to_stockpile = {
-	type = bmp2a_chassis
-	variant_name = "БМП-2Д"
-	amount = 30
-	producer = UKR
-}
-add_equipment_to_stockpile = {
-	type = t64_chassis_0
-	variant_name = "Т-64Б"
-	amount = 500
-	producer = UKR
-}
-add_equipment_to_stockpile = {
-	type = t72_chassis_0
-	variant_name = "Т-72A/Б"
+	type = tank_sov_t72b_equipment
 	amount = 550
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = t64_chassis_0
-	variant_name = "Т-64БВ"
+	type = tank_sov_t64bv_equipment
 	amount = 700
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = t64_chassis_0
-	variant_name = "Т-64БМ \"Булат\""
+	type = tank_sov_t64bmBulat2017_equipment
 	amount = 100
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = t80_chassis_0
-	variant_name = "Т-80БВ"
+	type = tank_sov_t80BV_equipment
 	amount = 300
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = t80_chassis_0
-	variant_name = "Т-80У"
+	type = tank_sov_t80Y_equipment
 	amount = 50
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = t80_chassis_0
-	variant_name = "Т-80УД"
+	type = tank_sov_t80YD_equipment
 	amount = 30
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = t84_chassis_0
-	variant_name = "Т-84"
+	type = tank_sov_t84Oplot_equipment
 	amount = 5
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = oplot_chassis_0
-	variant_name = "БМ \"Оплот\""
+	type = tank_sov_t84BMOplot_equipment
 	amount = 5
 	producer = UKR
 }
@@ -1764,26 +760,22 @@ add_equipment_to_stockpile = {
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = btr1_chassis
-	variant_name = "БТР-70 БМ"
+	type = sov_btr70_equipment
 	amount = 1000
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = btr2_chassis
-	variant_name = "БТР-80 БМ"
+	type = sov_btr80_equipment
 	amount = 600
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = btr3_chassis
-	variant_name = "БТР-3"
+	type = sov_btr3y_equipment
 	amount = 300
 	producer = UKR
 }
 add_equipment_to_stockpile = {
-	type = btr4_chassis
-	variant_name = "БТР-4 \"Буцефал\""
+	type = sov_btr4_equipment
 	amount = 100
 	producer = UKR
 }

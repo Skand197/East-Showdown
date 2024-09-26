@@ -1678,7 +1678,39 @@ guiTypes = {
 					slotsize = { width = 70 height = 70 }
 					format = "UP"
 				}
+
+				gridboxtype = {
+					name = "ukr_btr60_tree"
+					position = { x = 39 y = 172 }
+					size = { width = 80% height = 80% }
+					slotsize = { width = 70 height = 70 }
+					format = "UP"
+				}
 				
+				gridboxtype = {
+					name = "ukr_bmp1_tree"
+					position = { x = 39 y = 172 }
+					size = { width = 80% height = 80% }
+					slotsize = { width = 70 height = 70 }
+					format = "UP"
+				}
+				
+				gridboxtype = {
+					name = "sov_bmd1_tree"
+					position = { x = 39 y = 172 }
+					size = { width = 80% height = 80% }
+					slotsize = { width = 70 height = 70 }
+					format = "UP"
+				}
+
+				gridboxtype = {
+					name = "ukr_kozak2_tree"
+					position = { x = 39 y = 172 }
+					size = { width = 80% height = 80% }
+					slotsize = { width = 70 height = 70 }
+					format = "UP"
+				}
+		
 		}
 
 		containerWindowType = {
@@ -5255,6 +5287,12 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 		}
+
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=0 y=42 }
+			spriteType = "GFX_design_team_icon"
+		}
 	}
 
 	containerWindowType = {
@@ -5346,6 +5384,11 @@ guiTypes = {
 			}
 		}
 
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=5 y=55 }
+			spriteType = "GFX_design_team_icon"
+		}
 	}
 
 	containerWindowType = {
@@ -5452,6 +5495,12 @@ guiTypes = {
 			maxWidth = 80
 			maxHeight = 20
 			format = center
+		}
+
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=0 y=42 }
+			spriteType = "GFX_design_team_icon"
 		}
 	}
 
@@ -5562,6 +5611,13 @@ guiTypes = {
 			}
 		}
 
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=5 y=55 }
+			spriteType = "GFX_design_team_icon"
+		}
+
+
 	}
 
 	containerWindowType = {
@@ -5670,6 +5726,13 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
+
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=5 y=55 }
+			spriteType = "GFX_design_team_icon"
+		}
+
 	}
 
 	containerWindowType = {
@@ -5705,6 +5768,14 @@ guiTypes = {
 			maxHeight = 20
 			format = right
 		}
+
+		
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=0 y=42 }
+			spriteType = "GFX_design_team_icon"
+		}
+
 	}
 
 	containerWindowType = {
@@ -5813,6 +5884,12 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x = 5 y = 57 }
+			spriteType = "GFX_design_team_icon"
+			scale = 0.8
+		}
 	}
 
 	containerWindowType = {
@@ -5848,6 +5925,13 @@ guiTypes = {
 			maxHeight = 20
 			format = right
 		}
+
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=0 y=42 }
+			spriteType = "GFX_design_team_icon"
+		}
+
 	}
 
 	containerWindowType = {
@@ -5956,6 +6040,14 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
+
+				###хуйня чтобы была феолетовая колба 
+				iconType = {
+					name = "can_assign_design_team_icon"
+					position = { x = 0 y = 46 }
+					spriteType = "GFX_design_team_icon"
+					scale = 0.8
+				}
 	}
 
 	containerWindowType = {
@@ -5991,6 +6083,14 @@ guiTypes = {
 			maxHeight = 20
 			format = right
 		}
+
+						###хуйня чтобы была феолетовая колба 
+						iconType = {
+							name = "can_assign_design_team_icon"
+							position = { x = 0 y = 46 }
+							spriteType = "GFX_design_team_icon"
+							scale = 0.8
+						}
 	}
 
 	containerWindowType = {
@@ -6061,6 +6161,13 @@ guiTypes = {
 			maxHeight = 20
 			format = right
 		}
+
+
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=0 y=42 }
+			spriteType = "GFX_design_team_icon"
+		}
 	}
 
 	containerWindowType = {
@@ -6111,6 +6218,12 @@ guiTypes = {
 			maxWidth = 80
 			maxHeight = 20
 			format = center
+		}
+
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=5 y=55 }
+			spriteType = "GFX_design_team_icon"
 		}
 	}
 
@@ -6321,6 +6434,13 @@ guiTypes = {
 				spriteType = "GFX_airwing_carrier_icon"
 				alwaystransparent = yes
 			}
+		}
+
+		
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=5 y=55 }
+			spriteType = "GFX_design_team_icon"
 		}
 	}
 
@@ -6853,6 +6973,13 @@ guiTypes = {
 		position = { x=0 y=0 }
 		clipping = no
 
+		iconType = {
+			name = "design_team_icon"
+			position = { x = 462 y = 55 }
+			spriteType = "GFX_add_pol_idea_button"
+			centerposition = yes
+		}
+		
 		gridboxtype = {
 			name = "research_groups_grid"
 			position = { x = 422 y = 25 }

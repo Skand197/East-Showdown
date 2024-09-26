@@ -428,6 +428,52 @@ script_enum_equipment_bonus_type = {
 	amphibious_mechanized_equipment_2
 	medium_sau_0
 	tos_0
+#############################Lancaster
+SovietOBT_tank_equipment
+tank_sov_t80_equipment
+tank_sov_t80B_equipment 
+tank_sov_t80BV_equipment
+tank_sov_t80Y_equipment
+tank_sov_t80YD_equipment
+tank_sov_t84Oplot_equipment
+tank_sov_t84BMOplot_equipment
+tank_sov_t84yatagan_equipment
+tank_sov_t64_equipment
+tank_sov_t64b_equipment
+tank_sov_t64bv_equipment
+tank_sov_t64bmBulat_equipment
+tank_sov_t64bmBulat2017_equipment
+tank_sov_t64bmBulat2023_equipment
+tank_sov_t64e_equipment
+tank_sov_t72a_equipment
+tank_sov_t72b_equipment
+tank_sov_t72ya_equipment
+tank_sov_t72e_equipment
+tank_sov_t72amt_equipment
+tank_sov_t72ag_equipment
+sov_btr_equipment
+sov_btr60_equipment
+sov_btr70_equipment
+sov_btr80_equipment
+sov_btr3y_equipment
+sov_btr3e_equipment
+sov_btr4_equipment
+sov_btr4bm_equipment
+sov_btr60xm_equipment
+sov_bmp_equipment
+sov_bmp1_equipment
+sov_bmp2_equipment
+ukr_bmp1y_equipment
+ukr_bmp1tc_equipment
+sov_bmd_equipment
+sov_bmd1_equipment
+sov_bmd2_equipment
+sov_bmd3_equipment
+bronemashina_equipment
+bronemashina_ukrkozak2_equipment
+bronemashina_ukrVarta_equipment
+bronemashina_ukrNovator_equipment
+
 	#Vanilla
 	destroyer
 	infantry_equipment
@@ -512,4 +558,24 @@ script_enum_equipment_bonus_type = {
 	train_equipment_1
 	train_equipment_2
 	train_equipment_3
+
+	medium_plane_fighter_airframe
+	small_plane_cas_airframe
+	cv_small_plane_airframe
+	small_plane_airframe
+	cv_small_plane_cas_airfram
+	medium_plane_airframe
+	medium_plane_fighter_airframe
+	medium_plane_scout_plane_airframe
+	small_plane_airframe
+	medium_plane_fighter_airframe
+	medium_plane_airframe
+	large_plane_airframe
+	small_plane_naval_bomber_airframe
+	cv_small_plane_naval_bomber_airframe
+	cv_small_plane_airframe
+	cv_small_plane_cas_airframe
+	small_plane_naval_bomber_airframe
+	armored_car_equipment
+
 }
