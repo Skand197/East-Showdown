@@ -4724,27 +4724,18 @@ RUS_smo = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_Reopening"
 			add_equipment_to_stockpile = {
-				type = t80_chassis_0
-				amount = 1000
-				variant_name = "Т-80Б"
-				producer = RUS
-			}
-			add_equipment_to_stockpile = {
-				type = t72_chassis_0
-				amount = 2000
-				variant_name = "Т-72А"
+				type = SovietOBT_tank_equipment
+				amount = 3000
 				producer = RUS
 			}
 			add_equipment_to_stockpile = {
 				type = bmp1a_chassis
-				variant_name = "БМП-1 БМ"
 				amount = 2500
 				producer = RUS
 			}
 			add_equipment_to_stockpile = {
 				type = bmp2a_chassis
 				amount = 1500
-				variant_name = "БМП-2Д"
 				producer = RUS
 			}
 			add_equipment_to_stockpile = {
@@ -12315,23 +12306,12 @@ RUS_deconservation_cat = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_deconservation_tank"
 		    add_equipment_to_stockpile = {
-	            type = t90_chassis_0
+	            type = SovietOBT_tank_equipment
 	            variant_name = "Т-90A"
-	            amount = 80
+	            amount = 720
 	            producer = RUS
             }
-			add_equipment_to_stockpile = {
-				type = t80_chassis_0
-				variant_name = "Т-80"
-				amount = 150
-				producer = RUS
-			} 
-			add_equipment_to_stockpile = {
-				type = t72_chassis_0
-				variant_name = "Т-72А"
-				amount = 500
-				producer = RUS
-			} 
+ 
 			hidden_effect = {
 				add_to_variable = { var = RUS_deconservation_tank_num value = 1 }
 			}

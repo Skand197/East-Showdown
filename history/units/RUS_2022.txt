@@ -87,11 +87,11 @@ division_template = {
 			x = 0
 			y = 2
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
-		BMP_2 = {
+		sov_bmp = {
 			x = 1
 			y = 1
 		}
@@ -171,7 +171,7 @@ division_template = {
 			x = 1
 			y = 1
 		}
-		BMP_2 = {
+		sov_bmp = {
 			x = 2
 			y = 0
 		}
@@ -363,7 +363,7 @@ division_template = {
 			x = 0
 			y = 1
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
@@ -438,7 +438,7 @@ division_template = {
 			x = 0
 			y = 3
 		}
-		BMP_3 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
@@ -791,23 +791,23 @@ division_template = {
 	division_names_group = RUS_ARM_01
 	#division_names_group = RUS_RART_01 # Группа названий для дивизий, необязательно
 	regiments = {
-		T_90 = {
+		sov_tanks = {
 			x = 0
 			y = 0
 		}
-		T_90 = {
+		sov_tanks = {
 			x = 0
 			y = 1
 		}
-		T_90 = {
+		sov_tanks = {
 			x = 0
 			y = 2
 		}
-		BMP_2 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 1
 		}
@@ -867,23 +867,23 @@ division_template = {
 	division_names_group = RUS_ARM_02
 	#division_names_group = RUS_RART_01 # Группа названий для дивизий, необязательно
 	regiments = {
-		T_80 = {
+		sov_tanks = {
 			x = 0
 			y = 0
 		}
-		T_80 = {
+		sov_tanks = {
 			x = 0
 			y = 1
 		}
-		T_80 = {
+		sov_tanks = {
 			x = 0
 			y = 2
 		}
-		BMP_2 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 1
 		}
@@ -943,23 +943,23 @@ division_template = {
 	division_names_group = RUS_ARM_03
 	#division_names_group = RUS_RART_01 # Группа названий для дивизий, необязательно
 	regiments = {
-		T_72 = {
+		sov_tanks = {
 			x = 0
 			y = 0
 		}
-		T_72 = {
+		sov_tanks = {
 			x = 0
 			y = 1
 		}
-		T_72 = {
+		sov_tanks = {
 			x = 0
 			y = 2
 		}
-		BMP_2 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 1
 		}

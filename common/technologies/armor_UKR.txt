@@ -13,7 +13,7 @@ technologies = {
 		}
 
 		enable_subunits = {
-			T_80
+			sov_tanks
 		}
 	
 		path = {
@@ -210,7 +210,7 @@ technologies = {
 
 		
 		enable_subunits = {
-			T_64
+			sov_tanks
 		}
 
 		path = {
@@ -386,7 +386,7 @@ technologies = {
 		}
 
 		enable_subunits = {
-			T_72
+			sov_tanks
 		}
 
 		path = {
@@ -743,7 +743,7 @@ ukr_bmp1 = {
 	}
 
 	enable_subunits = {
-		BMP_1
+		sov_bmp
 	}
 
 	path = {
@@ -771,7 +771,7 @@ ukr_bmp2 = {
 	}
 
 	enable_subunits = {
-		BMP_2
+		sov_bmp
 	}
 
 	path = {

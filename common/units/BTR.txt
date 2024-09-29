@@ -35,7 +35,7 @@ BTR = {
 		initiative = 0.02
 	
 		need = {
-			btr_chassis = 10
+			sov_btr_equipment = 10
 			infantry_equipment = 100
 			infantry_anti_tank_equipment = 20
 			infantry_anti_air_equipment = 8

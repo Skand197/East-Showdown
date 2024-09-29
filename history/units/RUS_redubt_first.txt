@@ -28,7 +28,7 @@ division_template = {
 			x = 2
 			y = 0
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 2
 			y = 1
 		}

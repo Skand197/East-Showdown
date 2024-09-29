@@ -1006,8 +1006,7 @@ WGN_budget_category = {
 		}
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = t72_chassis_0
-				variant_name = "Т-72Б3"
+				type = SovietOBT_tank_equipment
 				amount = 10
 				producer = RUS
 			}

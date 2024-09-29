@@ -49,6 +49,10 @@
  infantry_folder: "Infantry"
 ukr_armour_folder: "Armor"
 ukr_armour_folder_desc: "Armor"
+
+rus_armour_folder: "Armor"
+rus_armour_folder_desc: "Armor"
+
 ukr_air_techs_folder: "Air"
 ukr_air_techs_folder_desc: "Air"
 nto_armour_folder: "Armor"

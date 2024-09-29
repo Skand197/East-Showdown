@@ -195,15 +195,15 @@ infantry_RUS = {
 			
 			regiments = {
 				BTR = 3
-				BMP_1 = 1
-				BMP_2 = 1
+				sov_bmp = 1
+				sov_bmp = 1
 			}
 		}
 		
 		allowed_types = {	
 			BTR
-			BMP_1
-			BMP_2
+			sov_bmp
+			sov_bmp
 			engineer
 			field_hospital
 			signal_company
@@ -292,14 +292,14 @@ infantry_RUS = {
 			regiments = {
 				spetsnaz = 4
 				BTR = 3
-				BMP_2 = 2
+				sov_bmp = 2
 			}
 		}
 		
 		allowed_types = {
 			infantry	
 			BTR
-			BMP_2
+			sov_bmp
 			engineer
 			field_hospital
 			signal_company
@@ -570,14 +570,14 @@ infantry_RUS = {
 			
 			regiments = {
 				TOS = 2
-				BMP_1 = 1
+				sov_bmp = 1
 				infantry = 2
 			}
 		}
 		
 		allowed_types = {
 			TOS
-			BMP_1
+			sov_bmp
 			infantry
 			engineer
 			field_hospital
@@ -1084,7 +1084,7 @@ artillery_RUS = {
 			regiments = {
 				Osadny_SAU = 3
 				MRL = 1
-				BMP_3 = 1
+				sov_bmp = 1
 				infantry = 2
 			}
 		}
@@ -1092,7 +1092,7 @@ artillery_RUS = {
 		allowed_types = {
 			Osadny_SAU
 			MRL
-			BMP_3
+			sov_bmp
 			infantry
 			engineer
 			field_hospital
@@ -1225,7 +1225,7 @@ armor_RUS = {
 
 	match_to_count = 0.50
 
-	T_90_default_RUS = {
+	sov_tanks_default_RUS = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -1301,16 +1301,16 @@ armor_RUS = {
 			}
 			
 			regiments = {
-				T_90 = 3
-				BMP_2 = 1
-				BMP_1 = 1
+				sov_tanks = 3
+				sov_bmp = 1
+				sov_bmp = 1
 			}
 		}
 		
 		allowed_types = {
-			T_90
-			BMP_2
-			BMP_1
+			sov_tanks
+			sov_bmp
+			sov_bmp
 			engineer
 			field_hospital
 			signal_company
@@ -1325,7 +1325,7 @@ armor_RUS = {
 		}
 	}
 
-	T_80_default_RUS = {
+	sov_tanks_default_RUS = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -1401,16 +1401,16 @@ armor_RUS = {
 			}
 			
 			regiments = {
-				T_80 = 3
-				BMP_2 = 1
-				BMP_1 = 1
+				sov_tanks = 3
+				sov_bmp = 1
+				sov_bmp = 1
 			}
 		}
 		
 		allowed_types = {
-			T_80
-			BMP_2
-			BMP_1
+			sov_tanks
+			sov_bmp
+			sov_bmp
 			engineer
 			field_hospital
 			signal_company
@@ -1425,7 +1425,7 @@ armor_RUS = {
 		}
 	}
 
-	T_72_default_RUS = {
+	sov_tanks_default_RUS = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -1433,7 +1433,7 @@ armor_RUS = {
 			modifier = {
 				factor = 100
 				stockpile_ratio = {
-					archetype = t72_chassis_0
+					archetype = SovietOBT_tank_equipment
 					ratio > 0.7
 				}
 			}
@@ -1501,16 +1501,16 @@ armor_RUS = {
 			}
 			
 			regiments = {
-				T_72 = 3
-				BMP_2 = 1
-				BMP_1 = 1
+				sov_tanks = 3
+				sov_bmp = 1
+				sov_bmp = 1
 			}
 		}
 		
 		allowed_types = {
-			T_72
-			BMP_2
-			BMP_1
+			sov_tanks
+			sov_bmp
+			sov_bmp
 			engineer
 			field_hospital
 			signal_company

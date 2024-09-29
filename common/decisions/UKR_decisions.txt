@@ -152,7 +152,7 @@ UKR_Lend_leas1_category = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision UKR_order_tanks_in_Ukraine: remove_effect"
 			add_equipment_to_stockpile = {
-				type = t72_chassis_0
+				type = SovietOBT_tank_equipment
 				variant_name = "Т-72A/Б"
 				amount = 500
 				producer = UKR
@@ -18934,9 +18934,8 @@ UKR_order_of_vehicles_category = {
 		}
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = t72_chassis_0
+				type = SovietOBT_tank_equipment
 				amount = 15
-				variant_name = "Т-72"
 			}
 		}
 
@@ -18970,7 +18969,7 @@ UKR_order_of_vehicles_category = {
 		    civilian_factory_use = 5
 		}
 	}
-	UKR_order_BMP_1 = {
+	UKR_order_sov_bmp = {
 		icon = GFX_404
 		fire_only_once = no
 		available = {
@@ -18996,7 +18995,7 @@ UKR_order_of_vehicles_category = {
 		    civilian_factory_use = 3
 		}
 	}
-	UKR_order_BMP_2 = {
+	UKR_order_sov_bmp = {
 		icon = GFX_404
 		fire_only_once = no
 		available = {

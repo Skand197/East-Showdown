@@ -22,18 +22,18 @@ sub_unit_categories = {
 	category_Osadny_SAU
 	category_Polevoi_SAU
 	category_Opolchenie
-	category_T_14
-	category_T_72
-	category_T_80
-	category_T_90
-	category_BMP_1
-	category_BMP_2
-	category_BMP_3
-	category_tank_T_64
+	#category_T_14
+	#category_T_72
+	#category_T_80
+	#category_T_90
+	#category_BMP_1
+	#category_BMP_2
+	#category_BMP_3
+	#category_tank_T_64
 	#lancaster
 	category_sov_tanks
 	category_sov_btr
-	category_tank_bmp
+	category_sov_bmp
         category_tank_Abrams
         category_tank_Leopard 
         category_Bradley

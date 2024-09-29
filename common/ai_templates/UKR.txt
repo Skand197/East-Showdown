@@ -773,7 +773,7 @@ armor_UKR = {
 
 	match_to_count = 0.50
 
-	T_64_default_UKR = {
+	sov_tanks_default_UKR = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -849,16 +849,16 @@ armor_UKR = {
 			}
 			
 			regiments = {
-				T_64 = 3
-				BMP_2 = 1
-				BMP_1 = 1
+				sov_tanks = 3
+				sov_bmp = 1
+				sov_bmp = 1
 			}
 		}
 		
 		allowed_types = {
-			T_64
-			BMP_2
-			BMP_1
+			sov_tanks
+			sov_bmp
+			sov_bmp
 			engineer
 			field_hospital
 			signal_company
@@ -873,7 +873,7 @@ armor_UKR = {
 		}
 	}
 
-	T_72_default_UKR = {
+	sov_tanks_default_UKR = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -881,7 +881,7 @@ armor_UKR = {
 			modifier = {
 				factor = 100
 				stockpile_ratio = {
-					archetype = t72_chassis_0
+					archetype = SovietOBT_tank_equipment
 					ratio > 0.7
 				}
 			}
@@ -949,16 +949,16 @@ armor_UKR = {
 			}
 			
 			regiments = {
-				T_72 = 3
-				BMP_2 = 1
-				BMP_1 = 1
+				sov_tanks = 3
+				sov_bmp = 1
+				sov_bmp = 1
 			}
 		}
 		
 		allowed_types = {
-			T_72
-			BMP_2
-			BMP_1
+			sov_tanks
+			sov_bmp
+			sov_bmp
 			engineer
 			field_hospital
 			signal_company
@@ -973,7 +973,7 @@ armor_UKR = {
 		}
 	}
 
-	T_80_default_UKR = {
+	sov_tanks_default_UKR = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -1049,16 +1049,16 @@ armor_UKR = {
 			}
 			
 			regiments = {
-				T_80 = 3
-				BMP_2 = 1
-				BMP_1 = 1
+				sov_tanks = 3
+				sov_bmp = 1
+				sov_bmp = 1
 			}
 		}
 		
 		allowed_types = {
-			T_80
-			BMP_2
-			BMP_1
+			sov_tanks
+			sov_bmp
+			sov_bmp
 			engineer
 			field_hospital
 			signal_company
@@ -1153,16 +1153,16 @@ armor_UKR = {
 			}
 			
 			regiments = {
-				T_64 = 2
-				BMP_2 = 1
-				BMP_1 = 2
+				sov_tanks = 2
+				sov_bmp = 1
+				sov_bmp = 2
 			}
 		}
 		
 		allowed_types = {
-			T_64
-			BMP_2
-			BMP_1
+			sov_tanks
+			sov_bmp
+			sov_bmp
 			engineer
 			field_hospital
 			signal_company

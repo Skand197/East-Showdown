@@ -1337,6 +1337,10 @@ Transport_Planes: "Транспортные Cамолеты"
  militia_tech: "Ополчение"
  ukr_armour_folder: "Броня"
 ukr_armour_folder_desc: "Броня"
+
+ rus_armour_folder: "Броня"
+rus_armour_folder_desc: "Броня"
+
 ukr_air_techs_folder: "Авиация"
 ukr_air_techs_folder_desc: "Авиация"
 nto_armour_folder: "Броня"

@@ -5,15 +5,15 @@ division_template = {
 	division_names_group = ROM_MEC_01
 	#division_names_group = ROM_MOT_01 # Группа названий для дивизий, необязательно
 	regiments = {
-		BMP_1 = {
+		sov_bmp = {
 			x = 0
 			y = 0
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 0
 			y = 1
 		}
-		T_72 = {
+		sov_tanks = {
 			x = 1
 			y = 0
 		}		# танк TR-85
@@ -53,7 +53,7 @@ division_template = {
 	division_names_group = ROM_ARM_01
 	#division_names_group = ROM_MOT_01 # Группа названий для дивизий, необязательно
 	regiments = {
-		T_72 = {
+		sov_tanks = {
 			x = 0
 			y = 0
 		}		# танк TR-85
@@ -61,7 +61,7 @@ division_template = {
 			x = 0
 			y = 1
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
@@ -113,7 +113,7 @@ division_template = {
 			x = 0
 			y = 2
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}

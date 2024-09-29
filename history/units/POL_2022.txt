@@ -65,27 +65,27 @@ division_template = {
 	division_names_group = POL_ARM_01
 	#division_names_group = POL_MOT_01 # Группа названий для дивизий, необязательно
 	regiments = {
-		T_72 = {
+		sov_tanks = {
 			x = 0
 			y = 0
 		}
-		T_72 = {
+		sov_tanks = {
 			x = 0
 			y = 1
 		}
-		T_72 = {
+		sov_tanks = {
 			x = 0
 			y = 2
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 1
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 2
 		}		
@@ -793,11 +793,11 @@ division_template = {
 			x = 0
 			y = 2
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 1
 		}	
@@ -921,23 +921,23 @@ division_template = {
 	division_names_group = POL_ARM_02
 	#division_names_group = POL_MOT_01 # Группа названий для дивизий, необязательно
 	regiments = {
-		T_72 = {
+		sov_tanks = {
 			x = 0
 			y = 0
 		}
-		T_72 = {
+		sov_tanks = {
 			x = 0
 			y = 1
 		}
-		T_72 = {
+		sov_tanks = {
 			x = 0
 			y = 2
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 1
 		}
@@ -989,23 +989,23 @@ division_template = {
 	division_names_group = POL_ARM_02
 	#division_names_group = POL_MOT_01 # Группа названий для дивизий, необязательно
 	regiments = {
-		T_72 = {
+		sov_tanks = {
 			x = 0
 			y = 0
 		}
-		T_72 = {
+		sov_tanks = {
 			x = 0
 			y = 1
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 1
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 2
 		}
@@ -1065,15 +1065,15 @@ division_template = {
 			x = 0
 			y = 1
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 1
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 2
 		}		
@@ -1191,11 +1191,11 @@ division_template = {
 			x = 0
 			y = 2
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 0
 		}
-		BMP_1 = {
+		sov_bmp = {
 			x = 1
 			y = 1
 		}		

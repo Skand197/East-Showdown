@@ -38,6 +38,13 @@ spriteTypes = {
 		textureFile = "gfx/interface/counters/divisions_large/T-80.dds"
 		noOfFrames = 2
 	}
+
+	spriteType = {
+		name = "GFX_unit_sov_tanks_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/T-80.dds"
+		noOfFrames = 2
+	}
+
 	spriteType = {
 		name = "GFX_unit_T_72_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/T-72.dds"
@@ -58,6 +65,13 @@ spriteTypes = {
 		textureFile = "gfx/interface/counters/divisions_large/BMP-2.dds"
 		noOfFrames = 2
 	}
+
+	spriteType = {
+		name = "GFX_unit_sov_bmp_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/BMP-2.dds"
+		noOfFrames = 2
+	}
+
 	spriteType = {
 		name = "GFX_unit_BMP_3_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/BMP-3.dds"
@@ -299,6 +313,12 @@ spriteTypes = {
 		textureFile = "gfx/interface/counters/divisions_small/onmap_T-80_small.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_unit_sov_tanks_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_T-80_small.dds"
+		noOfFrames = 2
+	}
+
 	spriteType = {
 		name = "GFX_unit_T_72_icon_medium_white"
 		textureFile = "gfx/interface/counters/divisions_small/onmap_T-72_small.dds"
@@ -1191,6 +1211,12 @@ spriteTypes = {
 		textureFile = "gfx/interface/counters/divisions_small/BMP-2_small.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_unit_sov_bmp_icon_small"
+		textureFile = "gfx/interface/counters/divisions_small/BMP-2_small.dds"
+		noOfFrames = 2
+	}
+
 	spriteType = {
 		name = "GFX_unit_BMP_3_icon_small"
 		textureFile = "gfx/interface/counters/divisions_small/BMP-3_small.dds"

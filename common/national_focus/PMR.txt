@@ -368,7 +368,7 @@ focus_tree = {
 				producer = RUS
 			}
 			add_equipment_to_stockpile = {
-				type = bmp_2A_equipment
+				type = sov_bmpA_equipment
 				amount = 350
 				producer = RUS
 			}
@@ -691,7 +691,7 @@ focus_tree = {
 				producer = RUS
 			}
 			add_equipment_to_stockpile = {
-				type = bmp_2A_equipment
+				type = sov_bmpA_equipment
 				amount = 350
 				producer = RUS
 			}

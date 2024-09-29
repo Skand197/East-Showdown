@@ -196,11 +196,11 @@ technologies = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
-		BMP_1 = {
+		sov_bmp = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
-		BMP_2 = {
+		sov_bmp = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
@@ -260,11 +260,11 @@ technologies = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
-		BMP_1 = {
+		sov_bmp = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
-		BMP_2 = {
+		sov_bmp = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
@@ -324,11 +324,11 @@ technologies = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
-		BMP_1 = {
+		sov_bmp = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
-		BMP_2 = {
+		sov_bmp = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
@@ -388,11 +388,11 @@ technologies = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
-		BMP_1 = {
+		sov_bmp = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
-		BMP_2 = {
+		sov_bmp = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
@@ -452,11 +452,11 @@ technologies = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
-		BMP_1 = {
+		sov_bmp = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
-		BMP_2 = {
+		sov_bmp = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
@@ -516,11 +516,11 @@ technologies = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
-		BMP_1 = {
+		sov_bmp = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
-		BMP_2 = {
+		sov_bmp = {
 			defense = 0.05
 			soft_attack = 0.05
 		}
@@ -829,11 +829,11 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		BMP_1 = {
+		sov_bmp = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		BMP_2 = {
+		sov_bmp = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -890,11 +890,11 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		BMP_1 = {
+		sov_bmp = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		BMP_2 = {
+		sov_bmp = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -950,11 +950,11 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		BMP_1 = {
+		sov_bmp = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		BMP_2 = {
+		sov_bmp = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -1010,11 +1010,11 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		BMP_1 = {
+		sov_bmp = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		BMP_2 = {
+		sov_bmp = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -1070,11 +1070,11 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		BMP_1 = {
+		sov_bmp = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		BMP_2 = {
+		sov_bmp = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -1130,11 +1130,11 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		BMP_1 = {
+		sov_bmp = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		BMP_2 = {
+		sov_bmp = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
