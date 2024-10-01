@@ -751,11 +751,42 @@ rus_bmp1 = {
 		research_cost_coeff = 1
 	}
 
+	path = {
+		leads_to_tech = rus_bmp1am
+		research_cost_coeff = 1
+	}
+
+
 	research_cost = 1.5
 
 	folder = {
 		name = rus_armour_folder
 		position = { x = 16 y = 0 }
+	}
+
+	categories = {
+		cat_light_armor
+	}
+}
+
+
+
+rus_bmp1am = {
+
+	enable_equipments = {
+		rus_bmp1am_equipment
+	}
+
+
+	path = {
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_armour_folder
+		position = { x = 13 y = 2 }
 	}
 
 	categories = {
@@ -1016,6 +1047,10 @@ rus_btr82a = {
 		research_cost_coeff = 1
 	}
 
+	path = {
+		leads_to_tech = rus_btrk16
+		research_cost_coeff = 1
+	}
 
 	research_cost = 1.5
 
@@ -1075,7 +1110,7 @@ rus_btr87 = {
 
 	folder = {
 		name = rus_armour_folder
-		position = { x = 28 y = 8 }
+		position = { x = 26 y = 8 }
 	}
 
 	categories = {
@@ -1094,7 +1129,6 @@ rus_btr22 = {
 
 
 	path = {
-		leads_to_tech = rus_btrk16
 		research_cost_coeff = 1
 	}
 
@@ -1103,7 +1137,7 @@ rus_btr22 = {
 
 	folder = {
 		name = rus_armour_folder
-		position = { x = 28 y = 0 }
+		position = { x = 26 y = 10 }
 	}
 
 	categories = {
@@ -1334,6 +1368,94 @@ rus_spartak_bronemash = { #sparta
 		cat_light_armor
 	}
 }
+
+
+#################################################################### TERMINATOR
+
+
+
+rus_BMPT_ter1 = {
+
+	enable_equipments = {
+		BMPT_Terminator1_equipment
+	}
+
+	enable_subunits = {
+		BMPT
+	}
+
+	path = {
+		leads_to_tech = rus_BMPT_ter2
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_armour_folder
+		position = { x = -8 y = 9 }
+	}
+
+	categories = {
+		cat_medium_armor
+	}
+}
+
+
+rus_BMPT_ter2 = {
+
+	enable_equipments = {
+		BMPT_Terminator2_equipment
+	}
+
+	enable_subunits = {
+		BMPT
+	}
+
+	path = {
+		leads_to_tech = rus_BMPT_ter3
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_armour_folder
+		position = { x = -8 y = 11 }
+	}
+
+	categories = {
+		cat_medium_armor
+	}
+}
+
+
+rus_BMPT_ter3 = {
+
+	enable_equipments = {
+		BMPT_Terminator3_equipment
+	}
+
+	enable_subunits = {
+		BMPT
+	}
+
+	path = {
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_armour_folder
+		position = { x = -8 y = 13 }
+	}
+
+	categories = {
+		cat_medium_armor
+	}
+}
+
 
 
 

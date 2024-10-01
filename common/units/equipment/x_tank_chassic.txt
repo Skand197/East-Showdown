@@ -12,9 +12,6 @@
 equipments = {
 
 
-	allow_branch = {
-		NOT = { has_dlc = "No Step Back" }
-	}
 	
 	SovietOBT_tank_equipment = {
 		year = 2020
@@ -830,7 +827,7 @@ tank_rus_t72b3v2_equipment = {  #t72b3 2014
 abbreviation = "t72b"
 year = 2020
 archetype = SovietOBT_tank_equipment
-parent = tank_sov_t72b3v1_equipment
+parent = tank_rus_t72b3v1_equipment
 priority = 2000
 is_convertable = yes
 #can_convert_from = {
@@ -858,7 +855,7 @@ tank_rus_t72b3v3_equipment = {  #t72b3 2016
 abbreviation = "t72b"
 year = 2020
 archetype = SovietOBT_tank_equipment
- parent = tank_sov_t72b3v2_equipment
+ parent = tank_rus_t72b3v2_equipment
 priority = 2000
 is_convertable = yes
 #can_convert_from = {
@@ -886,7 +883,7 @@ tank_rus_t72b3v4_equipment = {  #t72b3 2022-23
 abbreviation = "t72b"
 year = 2020
 archetype = SovietOBT_tank_equipment
-parent = tank_sov_t72b3v3_equipment
+parent = tank_rus_t72b3v3_equipment
 priority = 2000
 is_convertable = yes
 #can_convert_from = {
@@ -943,7 +940,7 @@ tank_rus_t90ca_equipment = {  #t90ca
 abbreviation = "t90caa"
 year = 2020
 archetype = SovietOBT_tank_equipment
-parent = tank_sov_t90a_equipment
+parent = tank_rus_t90a_equipment
 priority = 2000
 is_convertable = yes
 #can_convert_from = {
@@ -970,7 +967,7 @@ tank_rus_t90m_equipment = {  #t90m
 abbreviation = "t90m"
 year = 2020
 archetype = SovietOBT_tank_equipment
-parent = tank_sov_t90ca_equipment
+parent = tank_rus_t90ca_equipment
 priority = 2000
 is_convertable = yes
 #can_convert_from = {
@@ -998,7 +995,7 @@ tank_rus_t90mv3_equipment = {  #t90mv3
 abbreviation = "t90mv3"
 year = 2020
 archetype = SovietOBT_tank_equipment
-parent = tank_sov_t90m_equipment
+parent = tank_rus_t90m_equipment
 priority = 2000
 is_convertable = yes
 #can_convert_from = {
@@ -1203,7 +1200,7 @@ resources = {
 sov_btr3e_equipment = { #btr3da
 year = 2020
 
-parent = sov_btr3_equipment
+parent = sov_btr80_equipment
 
 archetype = sov_btr_equipment
 priority = 30
@@ -1233,7 +1230,7 @@ resources = {
 sov_btr4_equipment = { #btr4
 year = 2023
 
-parent = sov_btr3da_equipment
+parent = sov_btr80_equipment
 
 archetype = sov_btr_equipment
 priority = 30
@@ -1264,7 +1261,7 @@ resources = {
 sov_btr4bm_equipment = { #btr4bm
 year = 2023
 
-parent = sov_btr3da_equipment
+parent = sov_btr4_equipment
 
 archetype = sov_btr_equipment
 priority = 30
@@ -1691,7 +1688,7 @@ rus_bmp3m_equipment = { #bmp3m
 year = 2000
 
 abbreviation = "bmp3m"
-parent = sov_bmp3_equipment
+parent = rus_bmp3_equipment
 
 archetype = sov_bmp_equipment
 priority = 30
@@ -1723,7 +1720,7 @@ rus_bmp3Derivats_equipment = { #bmp3Derivats
 year = 2000
 
 abbreviation = "bmp3Derivats"
-parent = sov_bmp3m_equipment
+parent = rus_bmp3m_equipment
 
 archetype = sov_bmp_equipment
 priority = 30
@@ -1755,7 +1752,7 @@ rus_bmp3Epoha_equipment = { #bmp3Epoha
 year = 2020
 
 abbreviation = "bmp3epoha"
-parent = sov_bmp3m_equipment
+parent = rus_bmp3m_equipment
 
 archetype = sov_bmp_equipment
 priority = 30
@@ -1787,7 +1784,7 @@ rus_bmpKurganets_equipment = { #kurganets
 year = 2020
 
 abbreviation = "bmpKurganets"
-parent = sov_bmp3m_equipment
+parent = rus_bmp3m_equipment
 
 archetype = sov_bmp_equipment
 priority = 30
@@ -2038,7 +2035,7 @@ rus_spartak_equipment = {
 
 	abbreviation = "spartak"
 
-	parent = rus_linza_equipment
+	parent = rus_tiger_equipment
 
 	visual_level = 2
 	year = 2015
@@ -2152,6 +2149,119 @@ bronemashina_ukrNovator_equipment = {
 		steel = 4
 	}
 }
+
+
+###################################################################### BMPT
+
+
+BMPT_tank_equipment = {
+	year = 2020
+
+	is_archetype = yes
+	is_convertable = yes
+	picture = archetype_medium_tank_equipment
+	is_buildable = no
+	type = armor
+	group_by = archetype
+
+	interface_category = interface_category_armor
+	priority = 2000
+
+
+	#Misc Abilities
+	maximum_speed = 1
+	reliability = 0
+	max_strength = 1
+
+	#Defensive Abilities
+	defense = 1
+	breakthrough = 1
+	hardness = 0
+	armor_value = 1
+
+	#Offensive Abilities
+	soft_attack = 1
+	hard_attack = 1
+	ap_attack = 1
+	air_attack = 0
+
+	#Space taken in convoy
+	lend_lease_cost = 1.5
+
+	build_cost_ic = 200
+	fuel_consumption = 2
+	resources = {
+		steel = 4
+		rubber = 1
+	}
+
+}
+
+BMPT_Terminator1_equipment = { 
+
+	abbreviation = "Terminator"
+
+	visual_level = 2
+	year = 2017
+	archetype = BMPT_tank_equipment
+
+	priority = 2000
+
+	maximum_speed = 6
+	build_cost_ic = 5
+	reliability = 1.1
+	armor_value = 2
+	supply_consumption = 0.15
+	resources = {
+		steel = 4
+	}
+}
+
+BMPT_Terminator2_equipment = { 
+
+	abbreviation = "Terminato2r"
+
+
+	parent = BMPT_Terminator1_equipment
+	visual_level = 2
+	year = 2017
+	archetype = BMPT_tank_equipment
+
+	priority = 2000
+
+	maximum_speed = 6
+	build_cost_ic = 5
+	reliability = 1.1
+	armor_value = 2
+	supply_consumption = 0.15
+	resources = {
+		steel = 4
+	}
+}
+
+BMPT_Terminator3_equipment = { 
+
+	abbreviation = "Terminator3"
+
+
+	parent = BMPT_Terminator2_equipment
+
+	visual_level = 2
+	year = 2017
+	archetype = BMPT_tank_equipment
+
+	priority = 2000
+
+	maximum_speed = 6
+	build_cost_ic = 5
+	reliability = 1.1
+	armor_value = 2
+	supply_consumption = 0.15
+	resources = {
+		steel = 4
+	}
+}
+
 
 }
 

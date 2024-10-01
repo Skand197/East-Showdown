@@ -393,7 +393,7 @@ BMPT = {
         initiative = 0.03
 	
 		need = {
-            bmpt = 9
+            BMPT_tank_equipment = 9
 			infantry_equipment = 18
 		}
 		forest = {

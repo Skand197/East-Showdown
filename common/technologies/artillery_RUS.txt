@@ -1,12 +1,107 @@
 technologies = {
-	avtopushki1 = {
+	rus_artillery_Medium_2c1	 = {
 
-		enable_equipment_modules = {
-			tank_dop_ags
-			tank_dop_machine_gun
-			tank_dop_heavy_machine_gun
-			tank_machine_gun
-			tank_heavy_machine_gun
+		enable_subunits = {
+			Polevoi_SAU
+		}
+
+		enable_equipments = {
+			sov_artillery_Medium_2c1_equipment_0
+		}
+
+		path = {
+			leads_to_tech = rus_artillery_Medium_2c3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = rus_artillery_folder
+			position = { x = -8 y = 0 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+	
+
+	rus_artillery_Medium_2c3	 = {
+
+		enable_equipments = {
+			sov_artillery_Medium_2c3_equipment_1
+		}
+
+		path = {
+			leads_to_tech = rus_artillery_Medium_2c5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = rus_artillery_folder
+			position = { x = -8 y = 2 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+
+
+	rus_artillery_Medium_2c5	 = {
+
+		enable_equipments = {
+			sov_artillery_Medium_2c5_equipment_2
+		}
+
+		path = {
+			leads_to_tech = rus_artillery_Medium_2c19
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = rus_artillery_folder
+			position = { x = -8 y = 2 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+
+
+	rus_artillery_Medium_2c19	 = {
+
+		enable_equipments = {
+			sov_artillery_Medium_2c19_equipment_3
+		}
+
+		path = {
+			leads_to_tech = rus_artillery_Medium_2c35
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = rus_artillery_folder
+			position = { x = -8 y = 4 }
+		}
+
+		categories = {
+			artillery
+		}
+	}
+
+	rus_artillery_Medium_2c35	 = {  #мста 
+
+		enable_equipments = {
+			rus_artillery_Medium_2c35_equipment_4
 		}
 
 		path = {
@@ -17,98 +112,8 @@ technologies = {
 		research_cost = 1.5
 
 		folder = {
-			name = artillery_folder
-			position = { x = -8 y = 0 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	avtopushki2 = {
-
-		enable_equipment_modules = {
-			tank_dop_superheavy_machine_gun
-			tank_superheavy_machine_gun
-			tank_23mm_2
-			tank_23mm_4
-		}
-
-		path = {
-			leads_to_tech = avtopushki3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = -8 y = 2 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	avtopushki3 = {
-
-		enable_equipment_modules = {
-			tank_dop_autogun
-			tank_autogun
-			tank_autogun_x2
-			tank_30mm_2
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = -8 y = 4 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-		
-	legkieorydiya1 = {
-
-		enable_equipment_modules = {
-			tank_73mm
-		}
-
-		path = {
-			leads_to_tech = legkieorydiya2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = -4 y = 0 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	legkieorydiya2 = {
-
-		enable_equipment_modules = {
-			tank_100mm
-		}
-
-		path = {
-			leads_to_tech = legkieorydiya3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = -4 y = 2 }
+			name = rus_artillery_folder
+			position = { x = -8 y = 6 }
 		}
 
 		categories = {
@@ -116,424 +121,930 @@ technologies = {
 		}
 	}
 
-	legkieorydiya3 = {
+########################################################333
+#############################################################
+############################################################   Heavy Arta rus
 
-		enable_equipment_modules = {
-			tank_57mm
-		}
 
-		research_cost = 1.5
+rus_artillery_Heavy_2c4	 = { #тюльпан
 
-		folder = {
-			name = artillery_folder
-			position = { x = -4 y = 4 }
-		}
+enable_subunits = {
+	Osadny_SAU
+}
 
-		categories = {
-			artillery
-		}
-	}
-	
-	tankorydiya1 = {
-
-		enable_equipment_modules = {
-			tank_125mm_1
-			tank_125mm2a462_1
-			tank_125mm2a46_m1
-			tank_125mm2a46_m2
-			
-		}
-
-		path = {
-			leads_to_tech = tankorydiya2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 0 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	tankorydiya2 = {
-
-		enable_equipment_modules = {
-			tank_125mm_2
-			tank_125mm2a46_m4
-			tank_125mm2a46_m5
-			tank_125mm2a66
-			tank_125mmkba3
-			tank_125mm2a45
-			tank_125mm2a45m
-		}
-
-		path = {
-			leads_to_tech = tankorydiya3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 2 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	tankorydiya3 = {
-
-		enable_equipment_modules = {
-			tank_125mm_3
-			tank_125mm2a82
-			tank_125mmkbaz
-			tank_140mmBAGR
-			tank_120mmKBA2
-		}
-
-		path = {
-			leads_to_tech = tankorydiya4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 4 }
-		}
-
-		categories = {
-			artillery
-		}
+	enable_equipments = {
+		sov_artillery_HeavySAU_2c4_equipment_0
 	}
 
-	tankorydiya4 = {
-
-		enable_equipment_modules = {
-			tank_152mm
-			tank_155mm2a83
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 6 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	
-	artorydiya1 = {
-
-		enable_equipment_modules = {
-			tank_122mm
-		}
-
-		enable_subunits = {
-			Osadny_SAU
-			Polevoi_SAU
-			artillery
-			artillery_brigade
-		}
-
-		enable_equipments = {
-			artillery_equipment_0
-		}
-
-		path = {
-			leads_to_tech = artorydiya2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 4 y = 0 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	artorydiya2 = {
-
-		enable_equipment_modules = {
-			tank_152mm_art_1
-		}
-
-		enable_equipments = {
-			artillery_equipment_1
-		}
-
-		path = {
-			leads_to_tech = artorydiya3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 4 y = 2 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	artorydiya3 = {
-
-		enable_equipment_modules = {
-			tank_120mm
-		}
-
-		enable_equipments = {
-			artillery_equipment_2
-		}
-
-		path = {
-			leads_to_tech = artorydiya4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 4 y = 4 }
-		}
-
-		categories = {
-			artillery
-		}
+	path = {
+		leads_to_tech = rus_artillery_Heavy_2c5
+		research_cost_coeff = 1
 	}
 
-	artorydiya4 = {
+	research_cost = 1.5
 
-		enable_equipment_modules = {
-			tank_152mm_art_2
-			tank_203mm
-		}
-
-		enable_equipments = {
-			artillery_equipment_3
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 4 y = 6 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	
-	pszo1 = {
-
-		enable_equipment_modules = {
-			tank_mlrs_122mm
-			tank_mlrs_220mm
-			tank_mlrs_300mm
-			tank_mlrs_220mm_ogn
-		}
-
-		enable_subunits = {
-			MRL
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 8 y = 0 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	
-	legkiezrk1 = {
-
-		enable_equipment_modules = {
-			tank_dop_pzrk
-			tank_pzrk
-			tank_dop_light_aa1
-			tank_light_aa1
-		}
-
-		path = {
-			leads_to_tech = legkiezrk2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 12 y = 0 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	legkiezrk2 = {
-
-		enable_equipment_modules = {
-			tank_dop_light_aa2
-			tank_light_aa2
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 12 y = 2 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	
-	sredniezrk1 = {
-
-		enable_equipment_modules = {
-			tank_medium_aa1
-		}
-
-		path = {
-			leads_to_tech = sredniezrk2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 16 y = 0 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	sredniezrk2 = {
-
-		enable_equipment_modules = {
-			tank_medium_aa2
-		}
-
-		path = {
-			leads_to_tech = sredniezrk3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 16 y = 2 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
-	sredniezrk3 = {
-
-		enable_equipment_modules = {
-			tank_medium_aa3
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 16 y = 4 }
-		}
-
-		categories = {
-			artillery
-		}
+	folder = {
+		name = rus_artillery_folder
+		position = { x = -2 y = 0 }
 	}
 
-	tyazeliezrk1 = {
-
-		enable_equipment_modules = {
-			tank_heavy_aa1
-		}
-
-		path = {
-			leads_to_tech = tyazeliezrk2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 20 y = 0 }
-		}
-
-		categories = {
-			artillery
-		}
+	categories = {
+		artillery
 	}
-	tyazeliezrk2 = {
+}
 
-		enable_equipment_modules = {
-			tank_heavy_aa2
-		}
+rus_artillery_Heavy_2c5	 = { #гиацинт-с 
 
-		path = {
-			leads_to_tech = tyazeliezrk3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = artillery_folder
-			position = { x = 20 y = 2 }
-		}
-
-		categories = {
-			artillery
-		}
+	enable_equipments = {
+		sov_artillery_HeavySAU_2c5_equipment_1
 	}
-	tyazeliezrk3 = {
 
-		enable_equipment_modules = {
-			tank_heavy_aa3
-		}
+	path = {
+		leads_to_tech = rus_artillery_Heavy_2c7
+		research_cost_coeff = 1
+	}
 
-		research_cost = 1.5
+	research_cost = 1.5
 
-		folder = {
-			name = artillery_folder
-			position = { x = 20 y = 4 }
-		}
+	folder = {
+		name = rus_artillery_folder
+		position = { x = -2 y = 2 }
+	}
 
-		categories = {
-			artillery
-		}
+	categories = {
+		artillery
+	}
+}
+
+rus_artillery_Heavy_2c7	 = { #пион
+
+	enable_equipments = {
+		sov_artillery_HeavySAU_2c7_equipment_2
+	}
+
+	path = {
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = -2 y = 4 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+########################################################################################### RUS TUG ARTI
+
+
+rus_tug_artillery_D1 = {
+
+	enable_subunits = {
+		artillery
+		artillery_brigade
+	}
+
+	enable_equipments = {
+		sov_tug_artilleryD1_equipment_0
+	}
+
+	path = {
+		leads_to_tech = rus_tug_artilleryD20
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 4 y = 0 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_tug_artilleryD20	 = {
+
+	enable_equipments = {
+		sov_tug_artilleryD20_equipment_1
+	}
+
+	path = {
+		leads_to_tech = rus_tug_artillerym46
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 4 y = 2 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_tug_artillerym46	 = {
+
+	enable_equipments = {
+		sov_tug_artillerym46_equipment_2
+	}
+
+	path = {
+		leads_to_tech = rus_tug_artilleryd30
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 4 y = 4 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+
+rus_tug_artilleryd30	 = {
+
+	enable_equipments = {
+		sov_tug_artilleryd30_equipment_3
+	}
+
+	path = {
+		leads_to_tech = rus_tug_artillery2a36
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 4 y = 6 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+
+rus_tug_artillery2a36	 = {
+
+	enable_equipments = {
+		sov_tug_artillery2a36_equipment_4
+	}
+
+	path = {
+		leads_to_tech = rus_tug_artillery2a65
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 4 y = 8 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_tug_artillery2a65	 = {
+
+	enable_equipments = {
+		sov_tug_artillery2a65_equipment_5
+	}
+
+	path = {
+		leads_to_tech = rus_tug_artillery2a88
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 4 y = 10 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_tug_artillery2a88	 = {
+
+	enable_equipments = {
+		rus_tug_artillery2a88_equipment_6
+	}
+
+	path = {
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 4 y = 12 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+###########################################################33 RUS MRLS
+
+
+rus_MRLS_2b5 = {
+
+	enable_subunits = {
+		MRL
+	}
+
+	enable_equipments = {
+		sov_MRLS2b5_equipment_0
+	}
+
+	path = {
+		leads_to_tech = rus_MRLS_2b16 
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 8 y = 0 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_MRLS_2b16 = {
+
+
+	enable_equipments = {
+		sov_MRLS2b16_equipment_1
+	}
+
+	path = {
+		leads_to_tech = rus_MRLS_2b17
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 8 y = 2 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_MRLS_2b17 = {
+
+
+	enable_equipments = {
+		sov_MRLS2b17_equipment_2
+	}
+
+	path = {
+		leads_to_tech = rus_MRLS_9К58
+		research_cost_coeff = 1
+	}
+
+	path = {
+		leads_to_tech = rus_MRLS_9К51М
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 8 y = 4 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+rus_MRLS_9К58 = { ##### uragan
+
+
+	enable_equipments = {
+		sov_MRLS9К58_equipment_1
+	}
+
+	path = {
+		leads_to_tech = rus_MRLS_9К59
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 12 y = 4 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_MRLS_9К59 = {
+
+
+	enable_equipments = {
+		sov_MRLS9К59_equipment_2
+	}
+
+	path = {
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 12 y = 6 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_MRLS_9К51М = {
+
+
+	enable_equipments = {
+		rus_MRLS9К51М_equipment_3
+	}
+
+	path = {
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 8 y = 7 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+############################################################### ZRK rus low
+
+rus_low_zrkshilka = { ##### shilka
+
+
+	enable_equipments = {
+		sov_low_zrkshilka_equipment_0
+	}
+
+	enable_subunits = {
+		ZRK_low
+	}
+
+	path = {
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 17 y = 0 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+rus_low_zrk9К35 = { ##### стрела
+
+
+	enable_equipments = {
+		sov_low_zrk9К35_equipment_0
+	}
+
+	path = {
+		leads_to_tech = rus_low_zrk9К35v2
+		research_cost_coeff = 1
+	}
+
+	path = {
+		leads_to_tech = rus_low_zrk2С6  #тунгуска
+		research_cost_coeff = 1
 	}
 	
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 20 y = 0 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+rus_low_zrk9К35v2 = { ##### стрела
+
+
+	enable_equipments = {
+		sov_low_zrk9К35v2_equipment_1
+	}
+
+
+	path = {
+		leads_to_tech = rus_low_zrk9К33  #OSA 1
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 20 y = 2 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_low_zrk2С6 = { #####тунгуска
+
+
+	enable_equipments = {
+		sov_low_zrk2С6_equipment_1
+	}
+
+	path = {
+		leads_to_tech = rus_low_zrk2С7
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 24 y = 2 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+rus_low_zrk2С7 = { #####панцирь
+
+
+	enable_equipments = {
+		rus_low_zrk2С7_equipment_2
+	}
+
+	path = {
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 24 y = 4 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+
+
+rus_low_zrk9К33 = { ##### оса
+
+
+	enable_equipments = {
+		sov_low_zrk9К33_equipment_2
+	}
+
+	path = {
+		leads_to_tech = rus_low_zrk9К33AKM
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 20 y = 6 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_low_zrk9К33AKM = { ##### оса
+
+
+	enable_equipments = {
+		sov_low_zrk9К33AKM_equipment_3
+	}
+
+	path = {
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 20 y = 8 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+####################################################################################3
+###################################################################################3333
+######################################################################################### Medium ZRK 
+
+rus_medium_zrk9К330M = { ##### #9К330 Тор-М/-М1/-М2/-М2У
+
+
+	enable_equipments = {
+		sov_medium_zrk9К330M_equipment_0
+	}
+
+	enable_subunits = {
+		ZRK_sredny
+	}
+
+	path = {
+		leads_to_tech = rus_medium_zrk9К330M1
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 28 y = 4 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_medium_zrk9К330M1 = { ##### #9К330 -М1
+
+	enable_equipments = {
+		sov_medium_zrk9К330M1_equipment_1
+	}
+
+	path = {
+		leads_to_tech = rus_medium_zrk9К330M2
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 28 y = 6 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_medium_zrk9К330M2 = { ##### #9К330 -М2
+
+	enable_equipments = {
+		sov_medium_zrk9К330M2_equipment_2
+	}
+
+	path = {
+		leads_to_tech = rus_medium_zrk9К330M2Y
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 28 y = 8 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+rus_medium_zrk9К330M2Y = { ##### #9К330 M2Y
+
+	enable_equipments = {
+		sov_medium_zrk9К330M2Y_equipment_3
+	}
+
+	path = {
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 28 y = 6 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+######################################################################
+
+
+rus_medium_zrk9К37М1 = { #9К37М «Бук-М1-2»    9К317 «Бук-М2»   9К317М «Бук-М3»
+
+	enable_equipments = {
+		sov_medium_zrk9К37M1_equipment_0
+	}
+
+	enable_subunits = {
+		ZRK_sredny
+	}
+
+	path = {
+		leads_to_tech = rus_medium_zrk9К317M2
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 32 y = 0 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_medium_zrk9К317M2 = { # 9К317 «Бук-М2»  
+
+	enable_equipments = {
+		sov_medium_zrk9К317M2_equipment_1
+	}
+
+	path = {
+		leads_to_tech = rus_medium_zrk9К317M3
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 32 y = 2 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_medium_zrk9К317M3 = { # 9К317М «Бук-М3»  
+
+	enable_equipments = {
+		sov_medium_zrk9К317M3_equipment_3
+	}
+
+	path = {
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 32 y = 4 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+############################################################### ZRK long
+#  #С-300 С-300ПМУ1  С-300ПМУ2 «Фаворит  С-300В С-400
+
+rus_long_zrkС300 = { #  #С-300 
+	enable_equipments = {
+		sov_long_zrkС300_equipment_0
+	}
+
+	enable_subunits = {
+		ZRK_bolzhoy
+	}
+
+
+	path = {
+		leads_to_tech = rus_long_zrkС300pmy
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 36 y = 2 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+
+rus_long_zrkС300pmy = { #  С-300ПМУ1 
+	enable_equipments = {
+		sov_long_zrkС300pmy_equipment_1
+	}
+
+
+	path = {
+		leads_to_tech = rus_long_zrkС300pmy2
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 36 y = 4 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+rus_long_zrkС300pmy2 = { #  С-300ПМУ2 Фаворит
+
+	enable_equipments = {
+		sov_long_zrkС300pmy2_equipment_2
+	}
+
+
+	path = {
+		leads_to_tech = rus_long_zrkС300pmy2 
+		research_cost_coeff = 1
+	}
+
+	path = {
+		leads_to_tech = rus_long_zrkzrkС400е
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 36 y = 6 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+rus_long_zrkС300b = { #  #С-300В
+
+	enable_equipments = {
+		sov_long_zrkС300b_equipment_3
+	}
+
+
+	path = {
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 39 y = 7 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+
+rus_long_zrkzrkС400е = { #  С-400 Фаворит
+
+	enable_equipments = {
+		sov_long_zrkС400е_equipment_3
+	}
+
+
+	path = {
+		leads_to_tech = rus_long_zrkС300pmy2 
+		research_cost_coeff = 1
+	}
+
+	research_cost = 1.5
+
+	folder = {
+		name = rus_artillery_folder
+		position = { x = 36 y = 9 }
+	}
+
+	categories = {
+		artillery
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

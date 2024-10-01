@@ -854,7 +854,7 @@ ukr_bmd1 = {
 	}
 
 	path = {
-		leads_to_tech = sov_bmd2
+		leads_to_tech = ukr_bmd2
 		research_cost_coeff = 1
 	}
 
@@ -877,7 +877,7 @@ ukr_bmd2 = {
 	}
 
 	path = {
-		leads_to_tech = sov_bmd3
+		leads_to_tech = ukr_bmd3
 		research_cost_coeff = 1
 	}
 
