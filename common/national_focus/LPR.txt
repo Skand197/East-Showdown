@@ -1936,7 +1936,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_equipment_to_stockpile = {
-				type = t72_chassis_0
+				type = tank_sov_t72b_equipment
 				amount = 20
 				producer = LPR
 				variant_name = "Т-72Б"

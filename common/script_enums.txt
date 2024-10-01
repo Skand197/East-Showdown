@@ -193,80 +193,80 @@ script_enum_equipment_bonus_type = {
 	ARV_equipment_0
 	engineering_equipment
 	engineering_equipment_0
-	heavy_sau
-	gmh_chassis
-	gm1_chassis
-	gm2_chassis
-	heavy_zrk
-	heavy_zrk1_chassis
-	heavy_zrk2_chassis
-	gm_chassis
-	bmd_chassis
-	bmd1_chassis
-	bmd2_chassis
-	bmd3_chassis
-	bmd4_chassis
-	bmp1_chassis
-	bmp1a_chassis
-	bmp2_chassis
-	bmp2a_chassis
-	bmp3_chassis
-	bmp3a_chassis
-	bronemashina_chassis
-	bronemashina1_chassis
-	bronemashina2_chassis
-	bronemashina3_chassis
-	tyazbronemashina_chassis
-	tyazbronemashina1_chassis
-	tyazbronemashina2_chassis
-	mlrs
-	mlrs1_chassis
-	mlrs2_chassis
-	medium_zrk
-	medium_zrk1_chassis
-	medium_zrk2_chassis
-	btr_chassis
-	btr1_chassis
-	btr2_chassis
-	btr3_chassis
-	btr4_chassis
+	#heavy_sau
+	#gmh_chassis
+	#gm1_chassis
+	#gm2_chassis
+	#heavy_zrk
+	#heavy_zrk1_chassis
+	#heavy_zrk2_chassis
+	#gm_chassis
+	#bmd_chassis
+	#bmd1_chassis
+	#bmd2_chassis
+	#bmd3_chassis
+	#bmd4_chassis
+	#bmp1_chassis
+	#bmp1a_chassis
+	#bmp2_chassis
+	#bmp2a_chassis
+	#bmp3_chassis
+	#bmp3a_chassis
+	#bronemashina_chassis
+	#bronemashina1_chassis
+	#bronemashina2_chassis
+	#bronemashina3_chassis
+	#tyazbronemashina_chassis
+	#tyazbronemashina1_chassis
+	#tyazbronemashina2_chassis
+	#mlrs
+	#mlrs1_chassis
+	#mlrs2_chassis
+	#medium_zrk
+	#medium_zrk1_chassis
+	#medium_zrk2_chassis
+	#btr_chassis
+#	btr1_chassis
+#	btr2_chassis
+#	btr3_chassis
+#	btr4_chassis
 	nto_bmp_chassis
 	nto_bmp1_chassis
 	nto_bmp2_chassis
 	nto_bmp3_chassis
 	nto_bmp4_chassis
-	nto_bmd_chassis
-	nto_bmd1_chassis
-	leopard_chassis
-	leopard1_chassis
-    leopard2_chassis
-	leclerc_chassis
-	leclerc_chassis_0
-	embt_chassis
-	embt_chassis_0
-	challenger_chassis
-	challenger1_chassis
-	challenger2_chassis
-	abrams_chassis
-	abrams_chassis_0
-	t72_chassis
-	t72_chassis_0
+	#nto_bmd_chassis
+	#nto_bmd1_chassis
+#	leopard_chassis
+#	leopard1_chassis
+  #  leopard2_chassis
+	#leclerc_chassis
+	#leclerc_chassis_0
+#	embt_chassis
+#	embt_chassis_0
+	#challenger_chassis
+	#challenger1_chassis
+	#challenger2_chassis
+	#abrams_chassis
+	#abrams_chassis_0
+	#t72_chassis
+	#t72_chassis_0
 	bmpt
-	bmpt_chassis_0
-	medium_sau
-	medium_sau_chassis_0
-	t90_chassis
-	t90_chassis_0
+	#bmpt_chassis_0
+	#medium_sau
+	#medium_sau_chassis_0
+	#t90_chassis
+	#t90_chassis_0
 	tos
-	tos_chassis_0
-	t64_chassis
-	t64_chassis_0
-	t80_chassis
-	t80_chassis_0
-	t84_chassis_0
-	oplot_chassis_0
-	t14_chassis
-	t14_chassis_0
+	#tos_chassis_0
+	#t64_chassis
+	#t64_chassis_0
+	#t80_chassis
+	#t80_chassis_0
+	#t84_chassis_0
+	#oplot_chassis_0
+	#t14_chassis
+	#t14_chassis_0
 	nto_infantry_equipment_0
 	nto_infantry_equipment_1
 	nto_infantry_equipment_2
@@ -397,9 +397,9 @@ script_enum_equipment_bonus_type = {
 	uav_recon_equipment
 	URK_uav_recon_equipment_spectator
 	UKR_uav_recon_equipment_leleka
-	gmh_chassis_0
-	heavy_sau_chassis_0
-	bmpt_0
+	#gmh_chassis_0
+	#heavy_sau_chassis_0
+	#bmpt_0
 	artillery_equipment_0
 	infantry_equipment_4
 	infantry_anti_tank_equipment_0
@@ -426,8 +426,8 @@ script_enum_equipment_bonus_type = {
 	amphibious_mechanized_equipment
 	amphibious_mechanized_equipment_1
 	amphibious_mechanized_equipment_2
-	medium_sau_0
-	tos_0
+	#medium_sau_0
+	#tos_0
 #############################Lancaster
 SovietOBT_tank_equipment
 tank_sov_t54_equipment
@@ -478,6 +478,19 @@ bronemashina_ukrVarta_equipment
 bronemashina_ukrNovator_equipment
 
 ####################################3 rus
+#Архитипы
+artillery_equipment
+artillery_HeavySAU_equipment
+sov_MRLS_equipment
+sov_TOS_equipment
+sov_tug_artillery_equipment
+sov_low_zrk_equipment
+sov_medium_zrk_equipment
+sov_long_zrk_equipment
+
+
+
+#################################
 rus_rys_equipment
 rus_tiger_equipment
 rus_linza_equipment
@@ -528,7 +541,7 @@ sov_MRLS2b16_equipment_1
 sov_MRLS2b17_equipment_2
 sov_MRLS9К58_equipment_1
 sov_MRLS9К59_equipment_2
-rus_MRLS9К51М_equipment_3
+rus_MRLS9K51M_equipment_3
 
 sov_low_zrkshilka_equipment_0
 sov_low_zrk9К35_equipment_0
@@ -548,12 +561,15 @@ sov_medium_zrk9К37M1_equipment_0
 sov_medium_zrk9К317M2_equipment_1
 sov_medium_zrk9К317M3_equipment_3
 
-sov_long_zrkС300_equipment_0
-sov_long_zrkС300pmy_equipment_1
-sov_long_zrkС300pmy2_equipment_2
-sov_long_zrkС300b_equipment_3
-sov_long_zrkС400е_equipment_3
+sov_long_zrkc300_equipment_0
+sov_long_zrkc300pmy_equipment_1
+sov_long_zrkc300pmy2_equipment_2
+sov_long_zrkc300b_equipment_3
+sov_long_zrkc400_equipment_3
 
+BMPT_Terminator1_equipment
+BMPT_Terminator2_equipment
+BMPT_Terminator3_equipment
 
 
 

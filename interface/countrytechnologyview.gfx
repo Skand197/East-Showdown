@@ -140,6 +140,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/techtree/artillery_techtree_bg.dds"
 	}
 
+	spriteType = {
+		name = "GFX_ukr_artillery_techtree_bg"
+		textureFile = "gfx/interface/techtree/artillery_techtree_bg.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_support_techtree_bg"

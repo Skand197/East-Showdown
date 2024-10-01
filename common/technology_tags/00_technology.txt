@@ -138,6 +138,25 @@ technology_folders = {
         }
         ledger = army
     }
+
+	ukr_artillery_folder = {
+        available = {
+            NOT = { original_tag = NTO }
+            NOT = { original_tag = LPR }
+            NOT = { original_tag = DPR }
+            NOT = { original_tag = CHE }
+            NOT = { original_tag = PMR }
+            NOT = { original_tag = RUS }
+            NOT = { original_tag = ROM }
+            NOT = { original_tag = POL }
+            NOT = { original_tag = BLR }
+			NOT = { original_tag = WGN }
+			NOT = { original_tag = MOA }
+			NOT = { original_tag = MOA }
+        }
+        ledger = army
+    }
+
     nto_infantry_folder = {
         available = {
             NOT = { original_tag = UKR }

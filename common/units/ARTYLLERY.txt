@@ -35,7 +35,7 @@ sub_units = {
 		supply_consumption = 0.70
 	
 		need = {
-			heavy_sau = 6
+			artillery_HeavySAU_equipment = 6
 			infantry_equipment = 50
 		}
 		plains = {
@@ -118,7 +118,7 @@ sub_units = {
 		supply_consumption = 0.63
 	
 		need = {
-			medium_sau = 6
+			artillery_equipment = 6
 			infantry_equipment = 40
 		}
 		plains = {
@@ -200,7 +200,7 @@ sub_units = {
 		supply_consumption = 0.70
 	
 		need = {
-			tos = 3
+			sov_TOS_equipment= 3
 			infantry_equipment = 50
             motorized_equipment = 6
 		}
@@ -287,7 +287,7 @@ sub_units = {
 
 	
 		need = {
-			mlrs = 12
+			sov_MRLS_equipment = 12
 			infantry_equipment = 40
 		}
 		plains = {
@@ -360,7 +360,7 @@ artillery  = {
 
 		need = {
 			infantry_equipment = 60
-			artillery_equipment = 6
+			sov_tug_artillery_equipment = 6
 		}
 		manpower = 60
 		training_time = 120

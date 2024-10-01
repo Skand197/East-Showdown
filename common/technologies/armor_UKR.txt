@@ -6,6 +6,86 @@
 
 
 technologies = {
+
+
+	ukr_t54 = {
+
+		enable_equipments = {
+			tank_sov_t54_equipment
+		}
+
+		enable_subunits = {
+			sov_tanks
+		}
+
+		path = {
+			leads_to_tech = ukr_t55
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = ukr_armour_folder
+			position = { x = 4 y = 0 }
+		}
+
+		categories = {
+			cat_heavy_armor
+		}
+	}
+	ukr_t55 = {
+
+		enable_equipments = {
+			tank_sov_t55_equipment
+		}
+
+		path = {
+			leads_to_tech = ukr_t62
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = ukr_armour_folder
+			position = { x = 4 y = 2 }
+		}
+
+		categories = {
+			cat_heavy_armor
+		}
+	}
+	ukr_t62 = {
+
+		enable_equipments = {
+			tank_sov_t62_equipment
+		}
+
+		path = {
+			leads_to_tech = ukr_t64
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+
+		folder = {
+			name = ukr_armour_folder
+			position = { x = 4 y = 4 }
+		}
+
+		categories = {
+			cat_heavy_armor
+		}
+	}
+
+
+
+
+
+
+
+
+
 	ukr_t80 = {
 
 		enable_equipments = {
@@ -25,7 +105,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = -2 y = 0 }
+			position = { x = 8 y = 8 }
 		}
 
 		categories = {
@@ -48,7 +128,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = -2 y = 2 }
+			position = { x = 8 y = 10 }
 		}
 
 		categories = {
@@ -71,7 +151,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = -2 y = 4 }
+			position = { x = 8 y = 12 }
 		}
 
 		categories = {
@@ -94,7 +174,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = -2 y = 6 }
+			position = { x = 8 y = 14 }
 		}
 
 		categories = {
@@ -117,7 +197,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = -2 y = 8 }
+			position = { x = 8 y = 16 }
 		}
 
 		categories = {
@@ -148,7 +228,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = -2 y = 10 }
+			position = { x = 8 y = 18 }
 		}
 
 		categories = {
@@ -170,7 +250,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = -6 y = 11 }
+			position = { x = 11 y = 18 }
 		}
 
 		categories = {
@@ -192,7 +272,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = -2 y = 12 }
+			position = { x = 8 y = 20 }
 		}
 
 		categories = {
@@ -208,21 +288,31 @@ technologies = {
 			tank_sov_t64_equipment
 		}
 
-		
+		path = {
+			leads_to_tech = ukr_t80
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = ukr_t72
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = ukr_t64b
+			research_cost_coeff = 1
+		}
+
 		enable_subunits = {
 			sov_tanks
 		}
 
-		path = {
-			leads_to_tech = ukr_t64B
-			research_cost_coeff = 1
-		}
 
 		research_cost = 1.5
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 5 y = 0 }
+			position = { x = 4 y = 6 }
 		}
 
 		categories = {
@@ -245,7 +335,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 5 y = 2 }
+			position = { x = 4 y = 8 }
 		}
 
 		categories = {
@@ -268,7 +358,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 5 y = 4 }
+			position = { x = 4 y = 10 }
 		}
 
 		categories = {
@@ -293,7 +383,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 5 y = 6 }
+			position = { x = 4 y = 12 }
 		}
 
 		categories = {
@@ -322,7 +412,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 5 y = 8 }
+			position = { x = 4 y = 14 }
 		}
 
 		categories = {
@@ -344,7 +434,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 5 y = 10 }
+			position = { x = 3 y = 16 }
 		}
 
 		categories = {
@@ -367,7 +457,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 8 y = 10 }
+			position = { x = 5 y = 16 }
 		}
 
 		categories = {
@@ -399,7 +489,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 14 y = 0 }
+			position = { x = 0 y = 6 }
 		}
 
 		categories = {
@@ -433,7 +523,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 14 y = 2 }
+			position = { x = 0 y = 8 }
 		}
 
 		categories = {
@@ -456,7 +546,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 10 y = 4 }
+			position = { x = -2 y = 10 }
 		}
 
 		categories = {
@@ -478,7 +568,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 10 y = 6 }
+			position = { x = -2 y = 12 }
 		}
 
 		categories = {
@@ -500,7 +590,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 18 y = 4 }
+			position = { x = -5 y = 12 }
 		}
 
 		categories = {
@@ -522,7 +612,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 14 y = 6 }
+			position = { x = 0 y = 14 }
 		}
 
 		categories = {
@@ -554,7 +644,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 36 y = 0 }
+			position = { x = 28 y = 0 }
 		}
 
 		categories = {
@@ -579,7 +669,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 36 y = 2 }
+			position = { x = 28 y = 2 }
 		}
 
 		categories = {
@@ -609,7 +699,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 36 y = 4 }
+			position = { x = 28 y = 4 }
 		}
 
 		categories = {
@@ -633,7 +723,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 38 y = 6 }
+			position = { x = 27 y = 6 }
 		}
 
 		categories = {
@@ -656,7 +746,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 38 y = 8 }
+			position = { x = 27 y = 8 }
 		}
 
 		categories = {
@@ -682,7 +772,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 34 y = 8 }
+			position = { x = 31 y = 7 }
 		}
 
 		categories = {
@@ -705,7 +795,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 34 y = 12 }
+			position = { x = 31 y = 9 }
 		}
 
 		categories = {
@@ -727,7 +817,7 @@ technologies = {
 
 		folder = {
 			name = ukr_armour_folder
-			position = { x = 32 y = 10 }
+			position = { x = 23 y = 8 }
 		}
 
 		categories = {
@@ -755,7 +845,7 @@ ukr_bmp1 = {
 
 	folder = {
 		name = ukr_armour_folder
-		position = { x = 24 y = 0 }
+		position = { x = 16 y = 0 }
 	}
 
 	categories = {
@@ -783,7 +873,7 @@ ukr_bmp2 = {
 
 	folder = {
 		name = ukr_armour_folder
-		position = { x = 24 y = 2 }
+		position = { x = 16 y = 2 }
 	}
 
 	categories = {
@@ -809,7 +899,7 @@ ukr_bmp1shkval = {
 
 	folder = {
 		name = ukr_armour_folder
-		position = { x = 24 y = 6 }
+		position = { x = 16 y = 4 }
 	}
 
 	categories = {
@@ -834,7 +924,7 @@ ukr_bmp1tc = {
 
 	folder = {
 		name = ukr_armour_folder
-		position = { x = 24 y = 8 }
+		position = { x = 16 y = 6 }
 	}
 
 	categories = {
@@ -862,7 +952,7 @@ ukr_bmd1 = {
 
 	folder = {
 		name = ukr_armour_folder
-		position = { x = 28 y = 0 }
+		position = { x = 21 y = 0 }
 	}
 
 	categories = {
@@ -885,7 +975,7 @@ ukr_bmd2 = {
 
 	folder = {
 		name = ukr_armour_folder
-		position = { x = 28 y = 2 }
+		position = { x = 21 y = 2 }
 	}
 
 	categories = {
@@ -908,7 +998,7 @@ ukr_bmd3 = {
 
 	folder = {
 		name = ukr_armour_folder
-		position = { x = 28 y = 4 }
+		position = { x = 21 y = 4 }
 	}
 
 	categories = {
@@ -936,7 +1026,7 @@ ukr_kozak2 = {
 
 	folder = {
 		name = ukr_armour_folder
-		position = { x = 50 y = 0 }
+		position = { x = 32 y = 0 }
 	}
 
 	categories = {
@@ -960,7 +1050,7 @@ ukr_Varta = {
 
 	folder = {
 		name = ukr_armour_folder
-		position = { x = 50 y = 2 }
+		position = { x = 32 y = 2 }
 	}
 
 	categories = {
@@ -979,7 +1069,7 @@ ukr_Novator = {
 
 	folder = {
 		name = ukr_armour_folder
-		position = { x = 50 y = 4 }
+		position = { x = 32 y = 4 }
 	}
 
 	categories = {

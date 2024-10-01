@@ -2225,10 +2225,9 @@ focus_tree = {
 			add_command_power = 55
 			custom_effect_tooltip =  DPR_Modernisation_t64_and_t72_tt
 			add_equipment_to_stockpile = {
-				type = t72_chassis_0
+				type = tank_sov_t72b_equipment
 				amount = 25
 				producer = DPR
-				variant_name = "Т-72Б"
 			}
 			add_equipment_to_stockpile = {
 				type = tank_sov_t64bv_equipment

@@ -19,6 +19,7 @@ sub_unit_categories = {
 	category_TOS
 	category_ZRK_bolzhoy
 	category_ZRK_sredny
+	category_ZRK_low #lancaster
 	category_Osadny_SAU
 	category_Polevoi_SAU
 	category_Opolchenie
