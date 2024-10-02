@@ -2731,7 +2731,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/RUS/korpusi/bmd1.dds"
 	}
 
-
 	SpriteType = {
 		name = "GFX_ukr_bmd2_medium"
 		texturefile = "gfx/interface/technologies/RUS/korpusi/bmd2.dds"
@@ -2752,6 +2751,178 @@ spriteTypes = {
 		name = "GFX_ukr_tyazbronemashina2_medium"
 		texturefile = "gfx/interface/technologies/RUS/korpusi/tb2.dds"
 	}
+
+################################### LANCASTER GFX new
+	SpriteType = {
+		name = "GFX_rus_sov_bmd1_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/BMD_1M.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rus_sov_bmd2_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/BMD_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rus_sov_bmd3_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/BMD_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rus_sov_bmd4_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/BMD_4.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_rus_tank_sov_t54_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/BMD_1M.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_rus_tank_sov_t55_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/BMD_1M.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_rus_tank_sov_t62_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/T_62.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rus_tank_sov_t80_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/T_80.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rus_tank_sov_t80B_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/T_80BV.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rus_tank_sov_t80BV_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/T_80BV.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_rus_tank_sov_t80Y_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/T_80U.dds"
+	}
+
+
+	######################## UKR
+	SpriteType = {
+		name = "GFX_tank_sov_t80YD_equipment_medium"
+		texturefile = "gfx/interface/technologies/UKR/BMD_1M.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tank_sov_t84Oplot_equipment_medium"
+		texturefile = "gfx/interface/technologies/UKR/BMD_1M.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tank_sov_t84BMOplot_equipment_medium"
+		texturefile = "gfx/interface/technologies/UKR/BMD_1M.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tank_sov_t84yatagan_equipment_medium"
+		texturefile = "gfx/interface/technologies/UKR/BMD_1M.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tank_sov_t64bmBulat_equipment_medium"
+		texturefile = "gfx/interface/technologies/UKR/BMD_1M.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_tank_sov_t64bmBulat2017_equipment_medium"
+		texturefile = "gfx/interface/technologies/UKR/BMD_1M.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_tank_sov_t64bmBulat2023_equipment_medium"
+		texturefile = "gfx/interface/technologies/UKR/BMD_1M.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tank_sov_t64e_equipment_medium"
+		texturefile = "gfx/interface/technologies/UKR/BMD_1M.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_tank_sov_t72ya_equipment_medium"
+		texturefile = "gfx/interface/technologies/UKR/BMD_1M.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tank_sov_t72e_equipment_medium"
+		texturefile = "gfx/interface/technologies/UKR/BMD_1M.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tank_sov_t72amt_equipment_medium"
+		texturefile = "gfx/interface/technologies/UKR/BMD_1M.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tank_sov_t72ag_equipment_medium"
+		texturefile = "gfx/interface/technologies/UKR/BMD_1M.dds"
+	}
+
+
+
+
+
+
+
+
+
+
+
+	###########################################################33
+
+	SpriteType = {
+		name = "GFX_rus_tank_sov_t64_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/T_64.dds"
+	}
+
+
+	SpriteType = {
+		name = "GFX_rus_tank_sov_t64b_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/MBT2_t64b.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rus_tank_sov_t64bv_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/MBT2_t64bv.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rus_tank_sov_t72a_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/T_72.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rus_tank_sov_t72b_equipment_medium"
+		texturefile = "gfx/interface/technologies/RUS1/T_72B.dds"
+	}
+
+
+
+
+
+
+
+
+
 
 	######################################################
 	SpriteType = {

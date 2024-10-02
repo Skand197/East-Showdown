@@ -118,15 +118,11 @@ infantry_RUS = {
 			modifier = {
 				factor = 400
 				stockpile_ratio = {
-					archetype = btr1_chassis
+					archetype = sov_btr_equipment
 					ratio > 0.7
 				}
 				stockpile_ratio = {
-					archetype = bmp1_chassis
-					ratio > 0.7
-				}
-				stockpile_ratio = {
-					archetype = bmp2_chassis
+					archetype = sov_bmp_equipment
 					ratio > 0.7
 				}
 			}
@@ -502,7 +498,7 @@ infantry_RUS = {
 			modifier = {
 				factor = 200
 				stockpile_ratio = {
-					archetype = tos
+					archetype = sov_TOS_equipment
 					ratio > 0.7
 				}	
 			}
@@ -1014,7 +1010,7 @@ artillery_RUS = {
 			modifier = {
 				factor = 100
 				stockpile_ratio = {
-					archetype = heavy_sau
+					archetype = artillery_HeavySAU_equipment
 					ratio > 0.7
 				}
 			}
@@ -1116,7 +1112,7 @@ artillery_RUS = {
 			modifier = {
 				factor = 100
 				stockpile_ratio = {
-					archetype = medium_sau
+					archetype = artillery_equipment
 					ratio > 0.7
 				}
 			}
@@ -1233,7 +1229,7 @@ armor_RUS = {
 			modifier = {
 				factor = 100
 				stockpile_ratio = {
-					archetype = t90_chassis_0
+					archetype = SovietOBT_tank_equipment
 					ratio > 0.7
 				}
 			}
@@ -1333,7 +1329,7 @@ armor_RUS = {
 			modifier = {
 				factor = 100
 				stockpile_ratio = {
-					archetype = t80_chassis_0
+					archetype = SovietOBT_tank_equipment
 					ratio > 0.7
 				}
 			}

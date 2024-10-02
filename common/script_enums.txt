@@ -454,7 +454,7 @@ tank_sov_t72ya_equipment
 tank_sov_t72e_equipment
 tank_sov_t72amt_equipment
 tank_sov_t72ag_equipment
-sov_btr_equipment
+
 sov_btr60_equipment
 sov_btr70_equipment
 sov_btr80_equipment
@@ -463,12 +463,10 @@ sov_btr3e_equipment
 sov_btr4_equipment
 sov_btr4bm_equipment
 sov_btr60xm_equipment
-sov_bmp_equipment
 sov_bmp1_equipment
 sov_bmp2_equipment
 ukr_bmp1y_equipment
 ukr_bmp1tc_equipment
-sov_bmd_equipment
 sov_bmd1_equipment
 sov_bmd2_equipment
 sov_bmd3_equipment
@@ -479,6 +477,9 @@ bronemashina_ukrNovator_equipment
 
 ####################################3 rus
 #Архитипы
+sov_bmp_equipment
+sov_btr_equipment
+sov_bmd_equipment
 artillery_equipment
 artillery_HeavySAU_equipment
 sov_MRLS_equipment
@@ -487,7 +488,7 @@ sov_tug_artillery_equipment
 sov_low_zrk_equipment
 sov_medium_zrk_equipment
 sov_long_zrk_equipment
-
+bronemashina_equipment
 
 
 #################################

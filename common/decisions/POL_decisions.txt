@@ -2350,7 +2350,7 @@ POL_Deploy_Patriots_category = {
 					type = nto_bmp3_chassis
 					amount = 24
 					producer = NTO
-					variant_name = "M2A2"
+					# = "M2A2"
 				}
 			}
 		}
@@ -2370,7 +2370,7 @@ POL_Deploy_Patriots_category = {
 					type = abrams_chassis_0
 					amount = 24
 					producer = NTO
-					variant_name = "M1A1"
+					# = "M1A1"
 				}
 			}
 		}
@@ -2390,7 +2390,7 @@ POL_Deploy_Patriots_category = {
 					type = medium_sau_chassis_0
 					amount = 24
 					producer = NTO
-					variant_name = "M109"
+					# = "M109"
 				}
 			}
 		}
@@ -2449,7 +2449,7 @@ POL_Deploy_Patriots_category = {
 					type = nto_bmp1_chassis
 					amount = 24
 					producer = NTO
-					variant_name = "Marder 1A2"
+					# = "Marder 1A2"
 				}
 			}
 		}
@@ -2469,7 +2469,7 @@ POL_Deploy_Patriots_category = {
 					type = leopard2_chassis
 					amount = 24
 					producer = NTO
-					variant_name = "Leopard 2A4"
+					# = "Leopard 2A4"
 				}
 			}
 		}
@@ -2490,7 +2490,7 @@ POL_Deploy_Patriots_category = {
 					type = challenger2_chassis
 					amount = 24
 					producer = NTO
-					variant_name = "Challenger 2"
+					# = "Challenger 2"
 				}
 			}
 		}
@@ -2510,7 +2510,7 @@ POL_Deploy_Patriots_category = {
 					type = nto_bmp2_chassis
 					amount = 24
 					producer = NTO
-					variant_name = "Warrior MK III"
+					# = "Warrior MK III"
 				}
 			}
 		}

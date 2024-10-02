@@ -35,7 +35,7 @@ sub_units = {
 		supply_consumption = 0.70
 	
 		need = {
-			artillery_HeavySAU_equipment = 6
+			sov_tug_artillery_equipment = 6
 			infantry_equipment = 50
 		}
 		plains = {

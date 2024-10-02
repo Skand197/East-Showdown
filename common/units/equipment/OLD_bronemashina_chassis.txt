@@ -155,7 +155,7 @@ equipments = {
 
 	bronemashina1_chassis = { 
 		abbreviation = "bronemashina1"
-		derived_variant_name = bronemashina1
+		#_# = bronemashina1
 		visual_level = 0
 		year = 1970
 		archetype = bronemashina_chassis
@@ -165,7 +165,7 @@ equipments = {
 
 	bronemashina2_chassis = {
 		abbreviation = "bronemashina2"
-		derived_variant_name = bronemashina2
+		#_# = bronemashina2
 		visual_level = 1
 		year = 2000
 		archetype = bronemashina_chassis
@@ -183,7 +183,7 @@ equipments = {
 
 	bronemashina3_chassis = { 
 		abbreviation = "bronemashina3"
-		derived_variant_name = bronemashina3
+		#_# = bronemashina3
 		visual_level = 2
 		year = 2010
 		archetype = bronemashina_chassis
@@ -350,7 +350,7 @@ equipments = {
 
 	tyazbronemashina1_chassis = { 
 		abbreviation = "tyazbronemashina1"
-		derived_variant_name = tyazbronemashina1
+		#_# = tyazbronemashina1
 		visual_level = 0
 		year = 1970
 		archetype = tyazbronemashina_chassis
@@ -360,7 +360,7 @@ equipments = {
 
 	tyazbronemashina2_chassis = {
 		abbreviation = "tyazbronemashina2"
-		derived_variant_name = tyazbronemashina2
+		#_# = tyazbronemashina2
 		visual_level = 0
 		year = 1970
 		archetype = tyazbronemashina_chassis
@@ -525,7 +525,7 @@ equipments = {
 
 	mlrs1_chassis = { 
 		abbreviation = "mlrs1"
-		derived_variant_name = mlrs1
+		#_# = mlrs1
 		visual_level = 0
 		year = 1970
 		archetype = mlrs
@@ -535,7 +535,7 @@ equipments = {
 
 	mlrs2_chassis = {
 		abbreviation = "mlrs2"
-		derived_variant_name = mlrs2
+		#_# = mlrs2
 		visual_level = 0
 		year = 1970
 		archetype = mlrs
@@ -701,7 +701,7 @@ equipments = {
 
 	medium_zrk1_chassis = { 
 		abbreviation = "medium_zrk1"
-		derived_variant_name = medium_zrk1
+		#_# = medium_zrk1
 		visual_level = 0
 		year = 1970
 		archetype = medium_zrk
@@ -711,7 +711,7 @@ equipments = {
 
 	medium_zrk2_chassis = {
 		abbreviation = "medium_zrk2"
-		derived_variant_name = medium_zrk2
+		#_# = medium_zrk2
 		visual_level = 0
 		year = 1970
 		archetype = medium_zrk

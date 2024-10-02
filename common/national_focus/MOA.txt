@@ -82,25 +82,25 @@ focus_tree = {
 			hidden_effect = {
 				add_equipment_to_stockpile = {
 					type = leopard2_chassis
-					variant_name = "Leopard 2A4"
+					# = "Leopard 2A4"
 					amount = 10
 					producer = NTO
 				} 
 				add_equipment_to_stockpile = {
 					type = leopard2_chassis
-					variant_name = "Leopard 2A6"
+					# = "Leopard 2A6"
 					amount = 7
 					producer = NTO
 				} 
 				add_equipment_to_stockpile = {
 					type = nto_bmp3_chassis
-					variant_name = "M2A2"
+					# = "M2A2"
 					amount = 10
 					producer = NTO
 				}
 				add_equipment_to_stockpile = {
 					type = nto_bmp3_chassis
-					variant_name = "M2A1"
+					# = "M2A1"
 					amount = 15
 					producer = NTO
 				}

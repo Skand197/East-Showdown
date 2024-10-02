@@ -35,7 +35,7 @@ sub_units = {
 		
 	
 		need = {
-			bronemashina_chassis = 10
+			bronemashina_equipment = 10
 			infantry_equipment = 120
 			infantry_anti_tank_equipment = 20
 			infantry_anti_air_equipment = 10
@@ -135,7 +135,7 @@ sub_units = {
 		initiative = 0.02
 	
 		need = {
-			bronemashina_chassis = 8
+			bronemashina_equipment = 8
 			infantry_equipment = 80
 			infantry_anti_tank_equipment = 15
 			infantry_anti_air_equipment = 6
@@ -232,7 +232,7 @@ sub_units = {
 		initiative = 0.02
 	
 		need = {
-			bronemashina_chassis = 8
+			bronemashina_equipment = 8
 			infantry_equipment = 80
 			infantry_anti_tank_equipment = 15
 			infantry_anti_air_equipment = 6
@@ -432,7 +432,7 @@ sub_units = {
 		initiative = 0.02
 	
 		need = {
-			bronemashina_chassis = 8
+			bronemashina_equipment = 8
 			infantry_equipment = 80
 			infantry_anti_tank_equipment = 15
 			infantry_anti_air_equipment = 6
@@ -717,7 +717,7 @@ sub_units = {
 			 initiative = 0.05
 
 		need = {
-			bronemashina_chassis = 10
+			bronemashina_equipment = 10
 			infantry_equipment = 120
 			infantry_anti_tank_equipment = 25
 			infantry_anti_air_equipment = 10
@@ -808,7 +808,7 @@ sub_units = {
 		initiative = 0.05
 
 		need = {
-			bronemashina_chassis = 10
+			bronemashina_equipment = 10
 			infantry_equipment = 80
 			infantry_anti_tank_equipment = 20
 			infantry_anti_air_equipment = 5

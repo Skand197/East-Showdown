@@ -82,7 +82,6 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = ukr_artillery_Medium_2c35
 			research_cost_coeff = 1
 		}
 
@@ -98,28 +97,6 @@ technologies = {
 		}
 	}
 
-	ukr_artillery_Medium_2c35	 = {  #мста 
-
-		enable_equipments = {
-			ukr_artillery_Medium_2c35_equipment_4
-		}
-
-		path = {
-			leads_to_tech = avtopushki2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-
-		folder = {
-			name = ukr_artillery_folder
-			position = { x = -8 y = 6 }
-		}
-
-		categories = {
-			artillery
-		}
-	}
 
 ########################################################333
 #############################################################
@@ -680,7 +657,7 @@ ukr_medium_zrk9К330M = { ##### #9К330 Тор-М
 ukr_medium_zrk9К37М1 = { #9К37М «Бук-М1-2»    9К317 «Бук-М2»   9К317М «Бук-М3»
 
 	enable_equipments = {
-		sov_medium_zrk9К37M1_equipment_0
+		sov_medium_zrk9K37M1_equipment_0
 	}
 
 	enable_subunits = {

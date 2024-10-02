@@ -1009,7 +1009,6 @@ rus_long_zrkzrkС400е = { #  С-400 Фаворит
 
 
 	path = {
-		leads_to_tech = rus_long_zrkС300pmy2 
 		research_cost_coeff = 1
 	}
 

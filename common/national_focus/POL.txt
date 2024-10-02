@@ -1440,7 +1440,7 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 				type = abrams_chassis_0
 				amount = 249
-				variant_name = "M1A2 SEP V3"
+				# = "M1A2 SEP V3"
 				producer = NTO
 			}
 		}

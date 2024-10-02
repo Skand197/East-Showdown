@@ -152,7 +152,7 @@ equipments = {
 
 	btr1_chassis = {
 		abbreviation = "btr1"
-		derived_variant_name = btr1
+		#_# = btr1
 		visual_level = 0
 		year = 1970
 		archetype = btr_chassis
@@ -162,7 +162,7 @@ equipments = {
 
 	btr2_chassis = {
 		abbreviation = "btr2"
-		derived_variant_name = btr2
+		#_# = btr2
 		visual_level = 0
 		year = 1970
 		archetype = btr_chassis
@@ -183,7 +183,7 @@ equipments = {
 
 	btr3_chassis = {
 		abbreviation = "btr3"
-		derived_variant_name = btr3
+		#_# = btr3
 		visual_level = 0
 		year = 1970
 		archetype = btr_chassis
@@ -204,7 +204,7 @@ equipments = {
 
 	btr4_chassis = {
 		abbreviation = "btr4"
-		derived_variant_name = btr4
+		#_# = btr4
 		visual_level = 0
 		year = 1970
 		archetype = btr_chassis

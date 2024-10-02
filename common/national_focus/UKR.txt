@@ -442,7 +442,7 @@ focus_tree = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 				amount = 3000
 				producer = UKR
 			}
@@ -6325,17 +6325,17 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 				type = bmp2a_chassis
 				amount = 90
-				variant_name = "БПМ-У"
+				# = "БПМ-У"
 			}
 			add_equipment_to_stockpile = {
 				type = bmp2a_chassis
 				amount = 90
-				variant_name = "БМП Defense Express"
+				# = "БМП Defense Express"
 			}
 			add_equipment_to_stockpile = {
 				type = bmp1a_chassis
 				amount = 90
-				variant_name = "Кевлар-Е"
+				# = "Кевлар-Е"
 			}
 		}
 		search_filters = {
@@ -6409,12 +6409,12 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 				type = t80_chassis_0
 				amount = 90
-				variant_name = "БТМП-84"
+				# = "БТМП-84"
 			}
 			add_equipment_to_stockpile = {
 				type = t64_chassis_0
 				amount = 90
-				variant_name = "Т-62-5ТДФ"
+				# = "Т-62-5ТДФ"
 			}
 		}
 		search_filters = {
@@ -7652,7 +7652,7 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 			type = bronemashina3_chassis
 			amount = 300
-			variant_name = "\"Новатор\""
+			# = "\"Новатор\""
 		}
 		}
 		search_filters = {
@@ -7677,12 +7677,12 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 				type = bmp1a_chassis
 				amount = 90
-				variant_name = "БПМ-1У"
+				# = "БПМ-1У"
 			}
 			add_equipment_to_stockpile = {
 				type = bmp2a_chassis
 				amount = 70
-				variant_name = "БПМ-2Д"
+				# = "БПМ-2Д"
 			}
 		}
 		search_filters = {
@@ -7707,12 +7707,12 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 				type = bronemashina3_chassis
 				amount = 200
-				variant_name = "\"Новатор\""
+				# = "\"Новатор\""
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina3_chassis
 				amount = 400
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 			}
 		}
 		search_filters = {
@@ -7740,12 +7740,12 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 				type = bmp1a_chassis
 				amount = 90
-				variant_name = "БПМ-1У"
+				# = "БПМ-1У"
 			}
 			add_equipment_to_stockpile = {
 				type = bmp2a_chassis
 				amount = 70
-				variant_name = "БПМ-2Д"
+				# = "БПМ-2Д"
 			}
 		}
 		search_filters = {
@@ -7778,13 +7778,13 @@ focus_tree = {
 					add_equipment_to_stockpile = {
 						type = btr4_chassis
 						amount = 50
-						variant_name = "БТР-4 \"Буцефал\""
+						# = "БТР-4 \"Буцефал\""
 					}
 				}
 				add_equipment_to_stockpile = {
 					type = btr4_chassis
 					amount = 100
-					variant_name = "БТР-4 \"Буцефал\""
+					# = "БТР-4 \"Буцефал\""
 				}
 			}
 		}
@@ -7828,7 +7828,7 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 			type = t64_chassis_0
 			amount = 50
-			variant_name = "Т-64БМ \"Булат\""
+			# = "Т-64БМ \"Булат\""
 		}
 		}
 		search_filters = {
@@ -7853,7 +7853,7 @@ focus_tree = {
 			add_equipment_to_stockpile = {
 				type = t84_chassis_0
 				amount = 30
-				variant_name = "Т-84"
+				# = "Т-84"
 			}
 		}
 		search_filters = {
@@ -7878,7 +7878,7 @@ focus_tree = {
 				add_equipment_to_stockpile = {
 					type = medium_sau
 					amount = 65
-					variant_name = "Богдана"
+					# = "Богдана"
 				}
 			}
 		}
@@ -7904,7 +7904,7 @@ focus_tree = {
 				add_equipment_to_stockpile = {
 					type = mlrs
 					amount = 65
-					variant_name = "Ольха"
+					# = "Ольха"
 				}
 			}
 		}

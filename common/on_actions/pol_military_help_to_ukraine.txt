@@ -22,9 +22,9 @@ on_actions = {
 				var = POL_accessible_anti_tank_equipment
 				value = 3000
 			}
-			set_variable = { POL_accessible_bronemashina_chassis_equipment = num_equipment@bronemashina_chassis}
+			set_variable = { POL_accessible_bronemashina_equipment = num_equipment@bronemashina_equipment}
 			subtract_from_variable = {
-				var = POL_accessible_bronemashina_chassis_equipment
+				var = POL_accessible_bronemashina_equipment
 				value = 150
 			}
 			set_variable = { POL_accessible_motorized_equipment = num_equipment@motorized_equipment}

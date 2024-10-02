@@ -155,7 +155,7 @@ equipments = {
 
 	leopard1_chassis = {
 		abbreviation = "leopard1"
-		derived_variant_name = leopard1
+		#_# = leopard1
 		visual_level = 0
 		year = 1970
 		archetype = leopard_chassis
@@ -165,7 +165,7 @@ equipments = {
 
     leopard2_chassis = {
 		abbreviation = "leopard2"
-		derived_variant_name = leopard2
+		#_# = leopard2
 		visual_level = 0
 		year = 1970
 		archetype = leopard_chassis
@@ -338,7 +338,7 @@ equipments = {
 
 	leclerc_chassis_0 = {
 		abbreviation = "leclerc"
-		derived_variant_name = leclerc
+		#_# = leclerc
 		visual_level = 0
 		year = 1970
 		archetype = leclerc_chassis
@@ -502,7 +502,7 @@ equipments = {
 
 	embt_chassis_0 = {
 		abbreviation = "embt"
-		derived_variant_name = embt
+		#_# = embt
 		visual_level = 0
 		year = 1970
 		archetype = embt_chassis
@@ -665,7 +665,7 @@ equipments = {
 
 	challenger1_chassis = {
 		abbreviation = "challenger1"
-		derived_variant_name = challenger1
+		#_# = challenger1
 		visual_level = 0
 		year = 1970
 		archetype = challenger_chassis
@@ -675,7 +675,7 @@ equipments = {
 
     challenger2_chassis = {
 		abbreviation = "challenger2"
-		derived_variant_name = challenger2
+		#_# = challenger2
 		visual_level = 0
 		year = 1970
 		archetype = challenger_chassis
@@ -849,7 +849,7 @@ equipments = {
 
 	abrams_chassis_0 = {
 		abbreviation = "abrams"
-		derived_variant_name = abrams
+		#_# = abrams
 		visual_level = 0
 		year = 1970
 		archetype = abrams_chassis

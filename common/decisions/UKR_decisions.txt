@@ -153,7 +153,7 @@ UKR_Lend_leas1_category = {
 			log = "[GetDateText]: [Root.GetName]: Decision UKR_order_tanks_in_Ukraine: remove_effect"
 			add_equipment_to_stockpile = {
 				type = SovietOBT_tank_equipment
-				variant_name = "Т-72A/Б"
+				# = "Т-72A/Б"
 				amount = 500
 				producer = UKR
 			}
@@ -196,7 +196,7 @@ UKR_Lend_leas1_category = {
 			log = "[GetDateText]: [Root.GetName]: Decision UKR_order_Mraps_in_Ukraine: remove_effect"
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "M1025 HMMWV"
+				# = "M1025 HMMWV"
 				amount = 5000
 				producer = NTO
 			}
@@ -281,13 +281,13 @@ UKR_Lend_leas1_category = {
 			log = "[GetDateText]: [Root.GetName]: Decision UKR_order_IFV_in_Ukraine: remove_effect"
 			add_equipment_to_stockpile = {
 				type = nto_bmp1_chassis
-				variant_name = "БМП-1 БМ"
+				# = "БМП-1 БМ"
 				amount = 200
 				producer = UKR
 			}
 			add_equipment_to_stockpile = {
 				type = nto_bmp1_chassis
-				variant_name = "БМП-1П"
+				# = "БМП-1П"
 				amount = 80
 				producer = UKR
 			}
@@ -482,7 +482,7 @@ UKR_Lend_leas1_category = {
 			log = "[GetDateText]: [Root.GetName]: Decision UKR_order_Brandleys_in_Ukraine: remove_effect"
 			add_equipment_to_stockpile = {
 				type = nto_bmp3_chassis
-				variant_name = "M2A2"
+				# = "M2A2"
 				amount = 100
 				producer = NTO
 			}
@@ -525,7 +525,7 @@ UKR_Lend_leas1_category = {
 			log = "[GetDateText]: [Root.GetName]: Decision UKR_order_Marder_in_Ukraine: remove_effect"
 			add_equipment_to_stockpile = {
 				type = nto_bmp1_chassis
-				variant_name = "Marder 1A3"
+				# = "Marder 1A3"
 				amount = 150
 				producer = NTO
 			}
@@ -568,7 +568,7 @@ UKR_Lend_leas1_category = {
 			log = "[GetDateText]: [Root.GetName]: Decision UKR_order_Straikers_in_Ukraine: remove_effect"
 			add_equipment_to_stockpile = {
 				type = btr2_chassis
-				variant_name = "Boxer"
+				# = "Boxer"
 				amount = 100
 				producer = NTO
 			}
@@ -18703,13 +18703,13 @@ UKR_volunteers_decision_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 				amount = UKR_volunteer_movement_motorization_d_var
 				producer = UKR
 			} 
 			add_equipment_to_stockpile = {
 				type = bronemashina3_chassis
-				variant_name = "\"Новатор\""
+				# = "\"Новатор\""
 				amount = UKR_volunteer_movement_NTO_motorization_d_var
 				producer = UKR
 			} 
@@ -18745,13 +18745,13 @@ UKR_volunteers_decision_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "M1025 HMMWV"
+				# = "M1025 HMMWV"
 				amount = UKR_volunteer_movement_NTO_motorization_d_var
 				producer = NTO
 			} 
 			add_equipment_to_stockpile = {
 				type = bronemashina2_chassis
-				variant_name = "M1145 HMMWV с CROWS"
+				# = "M1145 HMMWV с CROWS"
 				amount = UKR_volunteer_movement_NTO_drones_d_var
 				producer = NTO
 			}
@@ -18910,7 +18910,7 @@ UKR_order_of_vehicles_category = {
 			add_equipment_to_stockpile = {
 				type = t64_chassis_0
 				amount = 20
-				variant_name = "Т-64"
+				# = "Т-64"
 			}
 		}
 
@@ -18961,7 +18961,7 @@ UKR_order_of_vehicles_category = {
 			add_equipment_to_stockpile = {
 				type = t80_chassis_0
 				amount = 10
-				variant_name = "Т-80"
+				# = "Т-80"
 			}
 		}
 
@@ -18987,7 +18987,7 @@ UKR_order_of_vehicles_category = {
 			add_equipment_to_stockpile = {
 				type = bmp1a_chassis
 				amount = 40
-				variant_name = "БПМ-1У"
+				# = "БПМ-1У"
 			}
 		}
 
@@ -19013,7 +19013,7 @@ UKR_order_of_vehicles_category = {
 			add_equipment_to_stockpile = {
 				type = bmp2a_chassis
 				amount = 30
-				variant_name = "БМП-2Д"
+				# = "БМП-2Д"
 			}
 		}
 
@@ -19039,7 +19039,7 @@ UKR_order_of_vehicles_category = {
 			add_equipment_to_stockpile = {
 				type = btr3_chassis
 				amount = 50
-				variant_name = "БТР-3"
+				# = "БТР-3"
 			}
 		}
 
@@ -19065,7 +19065,7 @@ UKR_order_of_vehicles_category = {
 			add_equipment_to_stockpile = {
 				type = btr4_chassis
 				amount = 35
-				variant_name = "БТР-4 \"Буцефал\""
+				# = "БТР-4 \"Буцефал\""
 			}
 		}
 
@@ -19091,7 +19091,7 @@ UKR_order_of_vehicles_category = {
 			add_equipment_to_stockpile = {
 				type = bronemashina3_chassis
 				amount = 80
-				variant_name = "\"Новатор\""
+				# = "\"Новатор\""
 			}
 		}
 
@@ -19117,7 +19117,7 @@ UKR_order_of_vehicles_category = {
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
 				amount = 150
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 			}
 		}
 
@@ -19929,7 +19929,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 				amount = 30
 				producer = UKR
 			}
@@ -19996,7 +19996,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 				amount = 15
 				producer = UKR
 			}
@@ -20051,7 +20051,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 				amount = 15
 				producer = UKR
 			}
@@ -20106,7 +20106,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 				amount = 15
 				producer = UKR
 			}
@@ -20161,7 +20161,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 				amount = 15
 				producer = UKR
 			}
@@ -20216,7 +20216,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 				amount = 15
 				producer = UKR
 			}
@@ -20271,7 +20271,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"M1025 HMMWV\""
+				# = "\"M1025 HMMWV\""
 				amount = 25
 				producer = NTO
 			} 
@@ -20333,7 +20333,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"M1025 HMMWV\""
+				# = "\"M1025 HMMWV\""
 				amount = 25
 				producer = NTO
 			} 
@@ -20395,7 +20395,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"M1025 HMMWV\""
+				# = "\"M1025 HMMWV\""
 				amount = 25
 				producer = NTO
 			} 
@@ -20451,7 +20451,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 				amount = 15
 				producer = UKR
 			}
@@ -20506,7 +20506,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 				amount = 15
 				producer = UKR
 			}
@@ -20567,7 +20567,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"M1025 HMMWV\""
+				# = "\"M1025 HMMWV\""
 				amount = 50
 				producer = NTO
 			} 
@@ -20664,7 +20664,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"M1025 HMMWV\""
+				# = "\"M1025 HMMWV\""
 				amount = 30
 				producer = NTO
 			} 
@@ -20756,7 +20756,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"M1025 HMMWV\""
+				# = "\"M1025 HMMWV\""
 				amount = 30
 				producer = NTO
 			} 
@@ -20852,7 +20852,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"M1025 HMMWV\""
+				# = "\"M1025 HMMWV\""
 				amount = 30
 				producer = NTO
 			} 
@@ -20950,7 +20950,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"M1025 HMMWV\""
+				# = "\"M1025 HMMWV\""
 				amount = 30
 				producer = NTO
 			} 
@@ -21012,7 +21012,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"M1025 HMMWV\""
+				# = "\"M1025 HMMWV\""
 				amount = 30
 				producer = POL
 			} 
@@ -21074,7 +21074,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"M1025 HMMWV\""
+				# = "\"M1025 HMMWV\""
 				amount = 15
 				producer = NTO
 			} 
@@ -21136,7 +21136,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"M1025 HMMWV\""
+				# = "\"M1025 HMMWV\""
 				amount = 15
 				producer = NTO
 			} 
@@ -21198,7 +21198,7 @@ UKR_IL_Territorial_Defense_Ukraine_category = {
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "\"Дозор-Б\""
+				# = "\"Дозор-Б\""
 				amount = 15
 				producer = UKR
 			}

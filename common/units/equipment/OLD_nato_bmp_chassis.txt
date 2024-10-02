@@ -155,7 +155,7 @@ equipments = {
 
 	nto_bmp1_chassis = { #also great war tank
 		abbreviation = "nto_bmp1"
-		derived_variant_name = nto_bmp1
+		#_# = nto_bmp1
 		visual_level = 0
 		year = 1970
 		archetype = nto_bmp_chassis
@@ -165,7 +165,7 @@ equipments = {
 
 	nto_bmp2_chassis = { #also great war tank
 		abbreviation = "nto_bmp2"
-		derived_variant_name = nto_bmp2
+		#_# = nto_bmp2
 		visual_level = 0
 		year = 1970
 		archetype = nto_bmp_chassis
@@ -186,7 +186,7 @@ equipments = {
 
 	nto_bmp3_chassis = { #also great war tank
 		abbreviation = "nto_bmp3"
-		derived_variant_name = nto_bmp3
+		#_# = nto_bmp3
 		visual_level = 0
 		year = 1970
 		archetype = nto_bmp_chassis
@@ -207,7 +207,7 @@ equipments = {
 
 	nto_bmp4_chassis = { #also great war tank
 		abbreviation = "nto_bmp4"
-		derived_variant_name = nto_bmp4
+		#_# = nto_bmp4
 		visual_level = 0
 		year = 1970
 		archetype = nto_bmp_chassis
@@ -379,7 +379,7 @@ equipments = {
 
 	nto_bmd1_chassis = { #also great war tank
 		abbreviation = "nto_bmd1"
-		derived_variant_name = nto_bmd1
+		#_# = nto_bmd1
 		visual_level = 0
 		year = 1970
 		archetype = nto_bmd_chassis

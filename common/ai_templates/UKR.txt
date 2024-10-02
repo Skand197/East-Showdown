@@ -121,7 +121,7 @@ infantry_UKR = {
 					ratio > 0.5
 				}
 				stockpile_ratio = {
-					archetype = btr1_chassis
+					archetype = sov_btr_equipment
 					ratio > 0.7
 				}
 			}
@@ -462,7 +462,7 @@ infantry_UKR = {
 			modifier = {
 				factor = 200
 				stockpile_ratio = {
-					archetype = btr1_chassis
+					archetype = sov_btr_equipment
 					ratio > 0.7
 				}
 			}
@@ -575,7 +575,7 @@ artillery_UKR = {
 			modifier = {
 				factor = 100
 				stockpile_ratio = {
-					archetype = medium_sau
+					archetype = artillery_equipment
 					ratio > 0.7
 				}
 			}
@@ -668,7 +668,7 @@ artillery_UKR = {
 			modifier = {
 				factor = 100
 				stockpile_ratio = {
-					archetype = heavy_sau
+					archetype = artillery_HeavySAU_equipment
 					ratio > 0.7
 				}
 			}
@@ -781,7 +781,7 @@ armor_UKR = {
 			modifier = {
 				factor = 100
 				stockpile_ratio = {
-					archetype = t64_chassis_0
+					archetype = SovietOBT_tank_equipment
 					ratio > 0.7
 				}
 			}
@@ -981,7 +981,7 @@ armor_UKR = {
 			modifier = {
 				factor = 100
 				stockpile_ratio = {
-					archetype = t80_chassis_0
+					archetype = SovietOBT_tank_equipment
 					ratio > 0.7
 				}
 			}
@@ -1081,11 +1081,11 @@ armor_UKR = {
 			modifier = {
 				factor = 200
 				stockpile_ratio = {
-					archetype = t64_chassis_0
+					archetype = SovietOBT_tank_equipment
 					ratio < 0.7
 				}
 				stockpile_ratio = {
-					archetype = bmp1_chassis
+					archetype = sov_bmp_equipment
 					ratio > 0.5
 				}
 			}
@@ -1135,7 +1135,7 @@ armor_UKR = {
 		
 		target_template = {
 			weight = 1.0
-			match_value = 4000	.0
+			match_value = 4000	
 			
 			support = {
 				engineer = 1

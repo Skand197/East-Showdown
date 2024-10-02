@@ -962,56 +962,56 @@ add_equipment_to_stockpile = {
 
 add_equipment_to_stockpile = {
 	type = abrams_chassis_0
-	variant_name = "M1A1"
+	# = "M1A1"
 	amount = 116
 	producer = POL
 } 
 
 add_equipment_to_stockpile = {
 	type = bmp1a_chassis
-	variant_name = "Borsuk"
+	# = "Borsuk"
 	amount = 3
 	producer = POL
 } 
 
 add_equipment_to_stockpile = {
 	type = abrams_chassis_0
-	variant_name = "M1A2 SEP V2"
+	# = "M1A2 SEP V2"
 	amount = 28
 	producer = POL
 } 
 
 add_equipment_to_stockpile = {
 	type = leopard2_chassis
-	variant_name = "Leopard 2A4"
+	# = "Leopard 2A4"
 	amount = 76
 	producer = POL
 } 
 
 add_equipment_to_stockpile = {
 	type = leopard2_chassis
-	variant_name = "Leopard 2A6"
+	# = "Leopard 2A6"
 	amount = 233
 	producer = POL
 } 
 
 add_equipment_to_stockpile = {
 	type = bronemashina2_chassis
-	variant_name = "M1145 HMMWV с CROWS"
+	# = "M1145 HMMWV с CROWS"
 	amount = 650
 	producer = POL
 } 
 
 add_equipment_to_stockpile = {
 	type = t72_chassis_0
-	variant_name = "Т-72"
+	# = "Т-72"
 	amount = 700
 	producer = POL
 } 
 
 add_equipment_to_stockpile = {
 	type =heavy_zrk1_chassis
-	variant_name = "Бук-М2"
+	# = "Бук-М2"
 	amount = 145
 	producer = POL
 }
@@ -1019,68 +1019,68 @@ add_equipment_to_stockpile = {
 
 add_equipment_to_stockpile = {
 	type = bronemashina2_chassis
-	variant_name = "\"Тигр\""
+	# = "\"Тигр\""
 	amount = 10
 	producer = POL
 } 
 
 add_equipment_to_stockpile = {
 	type = bmp1a_chassis
-	variant_name = "БМП-1 БМ"
+	# = "БМП-1 БМ"
 	amount = 1800
 	producer = POL
 } 
 
 add_equipment_to_stockpile = {
 	type = medium_sau_chassis_0
-	variant_name = "Krab"
+	# = "Krab"
 	amount = 142
 	producer = POL
 } 
 
 add_equipment_to_stockpile = {
 	type = medium_sau_chassis_0
-	variant_name = "2С1"
+	# = "2С1"
 	amount = 338
 	producer = POL
 } 
 
 add_equipment_to_stockpile = {
 	type = btr1_chassis
-	variant_name = "БТР-70 БМ"
+	# = "БТР-70 БМ"
 	amount = 670
 	producer = POL
 }
 
 add_equipment_to_stockpile = {
 	type = mlrs1_chassis
-	variant_name = "BM-21 \"GRAD\""
+	# = "BM-21 \"GRAD\""
 	amount = 200
 	producer = POL
 }
 
 add_equipment_to_stockpile = {
 	type = bronemashina3_chassis
-	variant_name = "Oshkosh MATV"
+	# = "Oshkosh MATV"
 	amount = 300
 	producer = NTO
 } 
 
 add_equipment_to_stockpile = {
 	type = bronemashina1_chassis
-	variant_name = "\"Выстрел\" с \"Корд\""
+	# = "\"Выстрел\" с \"Корд\""
 	amount = 179
 	producer = POL
 } 
 add_equipment_to_stockpile = {
 	type = bronemashina1_chassis
-	variant_name = "\"Выстрел\""
+	# = "\"Выстрел\""
 	amount = 89
 	 producer = POL
 } 
 add_equipment_to_stockpile = {
 	type = bronemashina1_chassis
-	variant_name = "\"Выстрел\" c 30мм автопушкой"
+	# = "\"Выстрел\" c 30мм автопушкой"
 	amount = 78
 	producer = POL
 }
@@ -1123,14 +1123,14 @@ add_equipment_to_stockpile = {
 
 add_equipment_to_stockpile = {
 	type = btr3_chassis
-	variant_name = "Rosomak"
+	# = "Rosomak"
 	amount = 1153
 	producer = POL
 }
 
 add_equipment_to_stockpile = {
 	type = medium_zrk1_chassis
-	variant_name = "Hibneryt"
+	# = "Hibneryt"
 	amount = 142
 	producer = POL
 }
@@ -1138,14 +1138,14 @@ add_equipment_to_stockpile = {
 
 add_equipment_to_stockpile = {
 	type = t72_chassis_0
-	variant_name = "PT-91 Twardy"
+	# = "PT-91 Twardy"
 	amount = 260
 	producer = POL
 }
 
 add_equipment_to_stockpile = {
 	type = mlrs2_chassis
-	variant_name = "WR-40 Langusta"
+	# = "WR-40 Langusta"
 	amount = 80
 	producer = POL
 } 

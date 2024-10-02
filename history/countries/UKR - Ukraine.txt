@@ -110,8 +110,40 @@ ukr_bmd2 = 1
 
 ukr_bmp1 = 1
 ukr_bmp2 = 1
+#########################################################3 АРТА 
+ukr_artillery_Medium_2c1 = 1
+ukr_artillery_Medium_2c3 = 1
+ukr_artillery_Medium_2c5 = 1
+ukr_artillery_Medium_2c19 = 1
 
+ukr_artillery_Heavy_2c4 = 1
+ukr_artillery_Heavy_2c5 = 1
+ukr_artillery_Heavy_2c7 = 1
 
+ukr_tug_artillery_D1 = 1
+ukr_tug_artilleryD20 = 1
+ukr_tug_artillerym46 = 1
+ukr_tug_artilleryd30 = 1
+ukr_tug_artillery2a36 = 1
+ukr_tug_artillery2a65 = 1
+
+ukr_MRLS_2b5 = 1
+ukr_MRLS_2b16 = 1
+ukr_MRLS_2b17 = 1
+ukr_MRLS_9К58 = 1
+ukr_MRLS_9К59 = 1
+
+ukr_low_zrkshilka = 1
+ukr_low_zrk9К35 = 1
+ukr_low_zrk9К35v2 = 1
+ukr_low_zrk2С6 = 1
+ukr_low_zrk9К33 = 1
+ukr_low_zrk9К33AKM = 1
+ukr_medium_zrk9К330M = 1
+
+ukr_medium_zrk9К37М1 = 1
+ukr_medium_zrk9К317M2 = 1
+ukr_long_zrkС300 = 1
 
 }
 
@@ -589,25 +621,25 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = mlrs1_chassis
-	variant_name = "БМ-21 \"Град\""
+	# = "БМ-21 \"Град\""
 	amount = 1000
 	producer = UKR
 }
 add_equipment_to_stockpile = {
 	type = mlrs1_chassis
-	variant_name = "БМ-21У \"Верба\""
+	# = "БМ-21У \"Верба\""
 	amount = 200
 	producer = UKR
 }
 add_equipment_to_stockpile = {
 	type = mlrs2_chassis
-	variant_name = "9К57 \"Ураган\""
+	# = "9К57 \"Ураган\""
 	amount = 200
 	producer = UKR
 }
 add_equipment_to_stockpile = {
 	type = mlrs2_chassis
-	variant_name = "\"Ольха\""
+	# = "\"Ольха\""
 	amount = 30
 	producer = UKR
 }
@@ -674,19 +706,19 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = medium_sau_chassis_0
-	variant_name = "2С1"
+	# = "2С1"
 	amount = 950
 	producer = UKR
 }
 add_equipment_to_stockpile = {
 	type = medium_sau_chassis_0
-	variant_name = "МСТА-С"
+	# = "МСТА-С"
 	amount = 60
 	producer = UKR
 }
 add_equipment_to_stockpile = {
 	type = medium_sau_chassis_0
-	variant_name = "2С22 \"Богдана\""
+	# = "2С22 \"Богдана\""
 	amount = 10
 	producer = UKR
 }
@@ -712,13 +744,13 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = heavy_sau_chassis_0
-	variant_name = "2С7 \"Пион\""
+	# = "2С7 \"Пион\""
 	amount = 150
 	producer = UKR
 }
 add_equipment_to_stockpile = {
 	type =  heavy_zrk1_chassis
-	variant_name = "Бук-М1"
+	# = "Бук-М1"
 	amount = 70
 	producer = UKR
 }
@@ -861,25 +893,25 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = medium_zrk1_chassis
-	variant_name = "Тор-М1"
+	# = "Тор-М1"
 	amount = 30
 	producer = UKR
 }
 add_equipment_to_stockpile = {
 	type = medium_zrk1_chassis
-	variant_name = "Оса"
+	# = "Оса"
 	amount = 220
 	producer = UKR
 }
 add_equipment_to_stockpile = {
 	type = medium_zrk1_chassis
-	variant_name = "Тунгуска"
+	# = "Тунгуска"
 	amount = 150
 	producer = UKR
 }  
 add_equipment_to_stockpile = {
 	type = medium_zrk1_chassis
-	variant_name = "Стрела-10"
+	# = "Стрела-10"
 	amount = 250
 	producer = UKR
 } 

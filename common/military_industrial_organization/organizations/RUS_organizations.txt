@@ -567,8 +567,8 @@ RUS_arzamaskiymashinstroi = {
 	}
 
 	equipment_type = { 
-	btr_chassis
-	bronemashina_chassis
+	sov_btr_equipment
+	bronemashina_equipment
 	}
 	research_categories = {  }
 
@@ -747,7 +747,7 @@ RUS_gorkovskymashinostroyzavod = {
 		tag = RUS
 	}
 
-	equipment_type = { heavy_zrk medium_zrk mortar }
+	equipment_type = { sov_long_zrk sov_medium_zrk mortar }
 	research_categories = {  }
 
 	tree_header_text = {

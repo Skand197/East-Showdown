@@ -1724,13 +1724,13 @@ add_equipment_to_stockpile = {
 }
 add_equipment_to_stockpile = {
 	type = bronemashina1_chassis
-	variant_name = "\"Выстрел\""
+	# = "\"Выстрел\""
 	amount = 220
 	producer = RUS
 }
 add_equipment_to_stockpile = {
 	type = medium_zrk1_chassis
-	variant_name = "\"Панцирь-С1\""
+	# = "\"Панцирь-С1\""
 	amount = 30
 	producer = RUS
 } 

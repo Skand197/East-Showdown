@@ -4848,7 +4848,7 @@ MOA_main = {
 			log = "[GetDateText]: [Root.GetName]: Decision moa_puski_postavki"
 			add_equipment_to_stockpile = {
 				type = bronemashina2_chassis
-				variant_name = "\"Тигр\""
+				# = "\"Тигр\""
 				amount = 25
 				producer = RUS
 			} 
@@ -4921,13 +4921,13 @@ MOA_main = {
 			log = "[GetDateText]: [Root.GetName]: Decision moa_trophei_dec"
 			add_equipment_to_stockpile = {
 				type = bronemashina1_chassis
-				variant_name = "M1025 HMMWV"
+				# = "M1025 HMMWV"
 				amount = 3
 				producer = NTO
 			}
 			add_equipment_to_stockpile = {
 				type = bronemashina2_chassis
-				variant_name = "M1145 HMMWV"
+				# = "M1145 HMMWV"
 				amount = 2
 				producer = NTO
 			} 
@@ -4968,25 +4968,25 @@ MOA_main = {
 			}
 			add_equipment_to_stockpile = {
 				type = leopard2_chassis
-				variant_name = "Leopard 2A4"
+				# = "Leopard 2A4"
 				amount = 2
 				producer = NTO
 			} 
 			add_equipment_to_stockpile = {
 				type = leopard2_chassis
-				variant_name = "Leopard 2A6"
+				# = "Leopard 2A6"
 				amount = 1
 				producer = NTO
 			} 
 			add_equipment_to_stockpile = {
 				type = nto_bmp3_chassis
-				variant_name = "M2A2"
+				# = "M2A2"
 				amount = 3
 				producer = NTO
 			} 
 			add_equipment_to_stockpile = {
 				type = nto_bmp1_chassis
-				variant_name = "Marder 1A2"
+				# = "Marder 1A2"
 				amount = 2
 				producer = NTO
 			} 
@@ -11083,7 +11083,7 @@ RUS_real_man_business_categories = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_fees_of_volunteer_organizations_car"
 			add_equipment_to_stockpile = {
 				type = bronemashina2_chassis
-				variant_name = "\"Тигр\""
+				# = "\"Тигр\""
 				amount = 100
 				producer = RUS
 			} 
@@ -11306,7 +11306,7 @@ RUS_real_man_business_categories = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_fees_of_voenkory_car"
 			add_equipment_to_stockpile = {
 				type = bronemashina2_chassis
-				variant_name = "\"Тигр\""
+				# = "\"Тигр\""
 				amount = 100
 				producer = RUS
 			} 
@@ -12143,7 +12143,7 @@ RUS_deconservation_cat = {
 			}
 		    add_equipment_to_stockpile = {
 				type = bronemashina2_chassis
-				variant_name = "\"Тигр\""
+				# = "\"Тигр\""
 				amount = 400
 				producer = RUS
 			} 
@@ -12187,13 +12187,13 @@ RUS_deconservation_cat = {
 			}
 			add_equipment_to_stockpile = {
 				type = mlrs1_chassis
-				variant_name = "БМ-21 \"Град\""
+				# = "БМ-21 \"Град\""
 				amount = 250
 				producer = RUS
 			}
 			add_equipment_to_stockpile = {
 				type = medium_sau_chassis_0
-				variant_name = "МСТА-С"
+				# = "МСТА-С"
 				amount = 200
 				producer = RUS
 			} 
@@ -12227,13 +12227,13 @@ RUS_deconservation_cat = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_deconservation_BTR"
 		    add_equipment_to_stockpile = {
 				type = btr1_chassis
-				variant_name = "БТР-70 БМ"
+				# = "БТР-70 БМ"
 				amount = 800
 				producer = RUS
 			}
 			add_equipment_to_stockpile = {
 				type = btr2_chassis
-				variant_name = "БТР-80 БМ"
+				# = "БТР-80 БМ"
 				amount = 300
 				producer = RUS
 			}
@@ -12267,13 +12267,13 @@ RUS_deconservation_cat = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_deconservation_BMP"
 		    add_equipment_to_stockpile = {
 				type = bmp1a_chassis
-				variant_name = "БМП-1М"
+				# = "БМП-1М"
 				amount = 500
 				producer = RUS
 			} 
 			add_equipment_to_stockpile = {
 				type = bmp2a_chassis
-				variant_name = "БМП-2 БМ"
+				# = "БМП-2 БМ"
 				amount = 250
 				producer = RUS
 			} 
@@ -12307,7 +12307,7 @@ RUS_deconservation_cat = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_deconservation_tank"
 		    add_equipment_to_stockpile = {
 	            type = SovietOBT_tank_equipment
-	            variant_name = "Т-90A"
+	            # = "Т-90A"
 	            amount = 720
 	            producer = RUS
             }
